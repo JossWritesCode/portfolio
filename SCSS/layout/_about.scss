@@ -1,0 +1,54 @@
+.section-about {
+  padding: 2rem;
+  .heading-about {
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .personal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    font-size: $default-font-size;
+    text-align: center;
+    .image-of-me {
+      border-radius: 50%;
+    }
+    p {
+      max-width: 50rem;
+    }
+  }
+
+  .features {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    @media (min-width: $breakpoint-tablet) {
+      flex-direction: row;
+    }
+
+    .feature-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+      width: 20rem;
+
+      .heading-tertiary {
+        font-size: 3rem;
+      }
+    }
+
+    .feature-list {
+      text-decoration: none;
+      font-size: $default-font-size;
+      list-style-type: none;
+      text-align: left;
+    }
+  }
+}

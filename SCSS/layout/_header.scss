@@ -2,38 +2,59 @@
   height: 100vh;
   background-image: linear-gradient(
       to right bottom,
-      rgba(86, 128, 233, 0.701),
-      rgba(90, 185, 234, 0.701)
+      rgba(86, 128, 233, 0.801),
+      rgba(90, 185, 234, 0.801)
     ),
     url('../../IMG/hero-image.png');
   background-size: cover;
   background-position: top;
   position: relative;
   padding: 1rem;
+  width: 100%;
 }
-.top .heading-primary-main {
-  text-align: center;
-  font-size: 3rem;
-  color: white;
 
-  margin: 0 auto;
+.hamburger-menu {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
-.top .heading-primary-sub {
-  text-align: center;
+
+.heading-primary-main {
+  font-size: 5rem;
+  color: $color-white;
+}
+.heading-primary-sub {
   font-size: 3rem;
-  color: white;
-  margin: 0 auto;
+  color: $color-white;
 }
 .top .btn {
-  color: white;
+  color: $color-white;
   border: 2px solid black;
+  padding: 1rem;
+  width: 12rem;
+  height: 2rem;
+  text-align: center;
+  font-size: $default-font-size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav {
-  color: white;
-  font-size: $default-font-size;
+.navbar {
+  display: none;
+  @media (min-width: $breakpoint-tablet) {
+    color: white;
+    font-size: $default-font-size;
 
-  a:not(:first-child) {
-    padding: 0 2rem;
+    a:not(:first-child) {
+      padding: 0 2rem;
+    }
   }
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rem;
 }
