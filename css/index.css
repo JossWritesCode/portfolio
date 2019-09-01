@@ -28,40 +28,116 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+.section-about {
+  padding: 2rem;
+}
+.section-about .heading-about {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-about .personal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  font-size: 1.6rem;
+  text-align: center;
+}
+.section-about .personal .image-of-me {
+  border-radius: 50%;
+}
+.section-about .personal p {
+  max-width: 50rem;
+}
+.section-about .features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@media (min-width: 800px) {
+  .section-about .features {
+    flex-direction: row;
+  }
+}
+.section-about .features .feature-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 20rem;
+}
+.section-about .features .feature-box .heading-tertiary {
+  font-size: 3rem;
+}
+.section-about .features .feature-list {
+  text-decoration: none;
+  font-size: 1.6rem;
+  list-style-type: none;
+  text-align: left;
+}
+
 .top {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(86, 128, 233, 0.701), rgba(90, 185, 234, 0.701)), url("../../IMG/hero-image.png");
+  background-image: linear-gradient(to right bottom, rgba(86, 128, 233, 0.801), rgba(90, 185, 234, 0.801)), url("../../IMG/hero-image.png");
   background-size: cover;
   background-position: top;
   position: relative;
   padding: 1rem;
+  width: 100%;
 }
 
-.top .heading-primary-main {
-  text-align: center;
-  font-size: 3rem;
-  color: white;
-  margin: 0 auto;
+.hamburger-menu {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
 }
 
-.top .heading-primary-sub {
-  text-align: center;
+.heading-primary-main {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.heading-primary-sub {
   font-size: 3rem;
-  color: white;
-  margin: 0 auto;
+  color: #fff;
 }
 
 .top .btn {
-  color: white;
+  color: #fff;
   border: 2px solid black;
+  padding: 1rem;
+  width: 12rem;
+  height: 2rem;
+  text-align: center;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav {
-  color: white;
-  font-size: 1.6rem;
+.navbar {
+  display: none;
 }
-.nav a:not(:first-child) {
-  padding: 0 2rem;
+@media (min-width: 800px) {
+  .navbar {
+    color: white;
+    font-size: 1.6rem;
+  }
+  .navbar a:not(:first-child) {
+    padding: 0 2rem;
+  }
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20rem;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -9,22 +9,76 @@
       href="https://fonts.googleapis.com/css?family=Raleway&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
     <link rel="stylesheet" type="text/css" href="css/index.css" />
   </head>
   <body>
     <header>
       <div class="top">
-        <div class="nav">
+        <img
+          class="hamburger-menu"
+          src="./IMG/menu.svg"
+          width="75px"
+          alt="hamburger menu"
+        />
+        <div class="navbar">
           <a href="#">Home</a>
           <a href="#">About</a>
           <a href="#">Portfolio</a>
           <a href="#">Blog</a>
           <a href="#">Contact</a>
         </div>
-        <span class="heading-primary-main">Hello, I'm Joscelyn Owen.</span>
-        <span class="heading-primary-sub">I'm a full-stack web developer.</span>
-        <a href="#" class="btn">See my work</a>
+        <div class="heading">
+          <span class="heading-primary-main">Joscelyn Owen:</span>
+          <span class="heading-primary-sub">full-stack web developer</span>
+          <a href="#" class="btn">See my work &#8594; </a>
+        </div>
       </div>
     </header>
+    <main>
+      <section class="section-about">
+        <h3 class="heading-about">About</h3>
+        <div class="personal">
+          <img
+            class="image-of-me"
+            src="./IMG/pictureofme.jpeg"
+            alt="Joscelyn"
+            width="300px"
+          />
+          <p>
+            I'm a full-stack developer from southern California. I love coding
+            and specialize in React Apps. In my free time I play tabletop games
+            and learn foreign languages.
+          </p>
+        </div>
+        <div class="features">
+          <div class="feature-box">
+            <img width="200px" src="./IMG/computer.svg" />
+            <h3 class="heading-tertiary u-margin-bottom-small">Front-End</h3>
+            <ul class="feature-list">
+              <li>&#10004; JavaScript</li>
+              <li>&#10004; Sass</li>
+              <li>&#10004; React</li>
+              <li>&#10004; Redux</li>
+            </ul>
+          </div>
+
+          <div class="feature-box">
+            <img width="200px" src="./IMG/develop.svg" />
+            <h3 class="heading-tertiary u-margin-bottom-small">Back-End</h3>
+            <ul class="feature-list">
+              <li>&#10004; Node.js</li>
+              <li>&#10004; Express</li>
+              <li>&#10004; SQL</li>
+              <li>&#10004; Python</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
