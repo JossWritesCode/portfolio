@@ -1,0 +1,39 @@
+.top {
+  height: 100vh;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(86, 128, 233, 0.701),
+      rgba(90, 185, 234, 0.701)
+    ),
+    url('../../IMG/hero-image.png');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding: 1rem;
+}
+.top .heading-primary-main {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+
+  margin: 0 auto;
+}
+.top .heading-primary-sub {
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  margin: 0 auto;
+}
+.top .btn {
+  color: white;
+  border: 2px solid black;
+}
+
+.nav {
+  color: white;
+  font-size: $default-font-size;
+
+  a:not(:first-child) {
+    padding: 0 2rem;
+  }
+}
