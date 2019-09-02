@@ -6,6 +6,13 @@
 
 html {
   font-size: 62.5%;
+  width: 100%;
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 *,
@@ -30,6 +37,7 @@ body {
 
 .section-about {
   padding: 2rem;
+  border: 5px solid #000;
 }
 .section-about .heading-about {
   font-size: 5rem;
@@ -48,6 +56,7 @@ body {
 }
 .section-about .personal .image-of-me {
   border-radius: 50%;
+  margin-bottom: 1rem;
 }
 .section-about .personal p {
   max-width: 50rem;
@@ -138,6 +147,16 @@ body {
   flex-direction: column;
   align-items: center;
   margin-top: 20rem;
+}
+
+.section-portfolio {
+  background-color: #f7f7f7;
+}
+.section-portfolio .heading-portfolio {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=index.css.map */
