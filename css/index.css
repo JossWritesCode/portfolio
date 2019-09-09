@@ -158,5 +158,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+.section-portfolio .all-projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-portfolio .all-projects-container .project-container {
+  margin: 1rem;
+  text-align: center;
+}
 
 /*# sourceMappingURL=index.css.map */
