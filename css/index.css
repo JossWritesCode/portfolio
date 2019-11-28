@@ -92,6 +92,7 @@ body {
 
 .section-blog {
   background-color: white;
+  border: 5px solid #000;
 }
 .section-blog .heading-blog {
   font-size: 5rem;
@@ -181,6 +182,7 @@ body {
 
 .section-portfolio {
   background-color: #5680e9;
+  min-height: 100vh;
 }
 .section-portfolio .heading-portfolio {
   font-size: 5rem;
