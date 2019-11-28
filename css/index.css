@@ -110,13 +110,14 @@ body {
 }
 
 .section-contact {
-  background-color: #f7f7f7;
+  background-color: #5680e9;
 }
 .section-contact .heading-contact {
   font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .top {
@@ -179,13 +180,14 @@ body {
 }
 
 .section-portfolio {
-  background-color: #f7f7f7;
+  background-color: #5680e9;
 }
 .section-portfolio .heading-portfolio {
   font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 .section-portfolio .all-projects-container {
   display: flex;
@@ -195,6 +197,10 @@ body {
 .section-portfolio .all-projects-container .project-container {
   margin: 1rem;
   text-align: center;
+}
+.section-portfolio .all-projects-container .project-container .heading-tertiary {
+  color: white;
+  font-size: 2.2rem;
 }
 
 /*# sourceMappingURL=index.css.map */
