@@ -90,6 +90,35 @@ body {
   text-align: left;
 }
 
+.section-blog {
+  background-color: white;
+}
+.section-blog .heading-blog {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-blog .all-blogs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section-blog .all-blogs-container .blog-container {
+  margin: 1rem;
+  text-align: center;
+}
+
+.section-contact {
+  background-color: #f7f7f7;
+}
+.section-contact .heading-contact {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .top {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(86, 128, 233, 0.801), rgba(90, 185, 234, 0.801)), url("../../IMG/hero-image.png");
