@@ -1,4 +1,4 @@
-sass --watch ./SCSS/main.scss ./css/index.css
+sass --watch SCSS/main.scss css/index.css
 # Portfolio
 
 This is where all the cool stuff I made goes.
