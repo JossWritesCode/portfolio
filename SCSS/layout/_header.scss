@@ -62,12 +62,6 @@
   margin-top: 20rem;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 .nav-wrapper {
   position: relative;
 }
@@ -91,19 +85,26 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 .navigation {
   max-width: 500px;
   border-radius: 8px;
+  margin-top: 100px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
     0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
   background-color: #fff;
-  padding-right: 30px;
+  min-width: 60px;
   line-height: 3;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 .nav-wrapper ul {
@@ -125,7 +126,7 @@ a {
   transition: 0.3s;
 }
 a:hover {
-  color: #3c9dfb;
+  color: $color-primary;
 }
 
 .nav-toogler {
@@ -144,9 +145,10 @@ a:hover {
   content: "";
   position: relative;
   display: block;
+
   width: 30px;
   height: 3px;
-  background-color: #3c9dfb;
+  background-color: $color-primary;
   transition: 0.4s cubic-bezier(0.77, 0, 0.18, 1);
 }
 .nav-toogler::after {
@@ -156,7 +158,7 @@ a:hover {
 .nav-wrapper.active .nav-toogler::after {
   position: absolute;
   top: 50%;
-  background-color: #3c9dfb;
+  background-color: $color-primary;
   transform: rotate(135deg);
 }
 .nav-wrapper.active .nav-toogler::after {
