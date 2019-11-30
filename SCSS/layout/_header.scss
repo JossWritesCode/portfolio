@@ -5,7 +5,7 @@
       rgba(86, 128, 233, 0.801),
       rgba(90, 185, 234, 0.801)
     ),
-    url('../../IMG/hero-image.png');
+    url("../../IMG/hero-image.png");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -17,6 +17,9 @@
   position: absolute;
   top: 1rem;
   left: 1rem;
+  @media (min-width: $breakpoint-tablet) {
+    display: none;
+  }
 }
 
 .heading-primary-main {
@@ -45,7 +48,7 @@
   @media (min-width: $breakpoint-tablet) {
     color: white;
     font-size: $default-font-size;
-
+    display: flex;
     a:not(:first-child) {
       padding: 0 2rem;
     }

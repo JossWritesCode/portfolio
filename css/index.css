@@ -136,6 +136,11 @@ body {
   top: 1rem;
   left: 1rem;
 }
+@media (min-width: 800px) {
+  .hamburger-menu {
+    display: none;
+  }
+}
 
 .heading-primary-main {
   font-size: 4rem;
@@ -167,6 +172,7 @@ body {
   .navbar {
     color: white;
     font-size: 1.6rem;
+    display: flex;
   }
   .navbar a:not(:first-child) {
     padding: 0 2rem;
