@@ -19,9 +19,16 @@
       margin: 1rem;
       text-align: center;
 
-      .heading-tertiary {
-        color: white;
-        font-size: $subheader-font-size;
+      .project {
+        .heading-tertiary {
+          color: white;
+          font-size: $subheader-font-size;
+        }
+        .img-wrapper {
+          display: inline-block;
+          height: 188px;
+          overflow: hidden;
+        }
       }
     }
   }

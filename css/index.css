@@ -206,9 +206,14 @@ body {
   margin: 1rem;
   text-align: center;
 }
-.section-portfolio .all-projects-container .project-container .heading-tertiary {
+.section-portfolio .all-projects-container .project-container .project .heading-tertiary {
   color: white;
   font-size: 2.2rem;
+}
+.section-portfolio .all-projects-container .project-container .project .img-wrapper {
+  display: inline-block;
+  height: 188px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=index.css.map */
