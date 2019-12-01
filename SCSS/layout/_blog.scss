@@ -1,6 +1,7 @@
 .section-blog {
   background-color: white;
   border: 5px solid $color-black;
+  min-height: 100vh;
   .heading-blog {
     font-size: 5rem;
     display: flex;
