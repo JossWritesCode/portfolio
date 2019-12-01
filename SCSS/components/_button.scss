@@ -1,0 +1,12 @@
+.btn {
+  color: $color-white;
+  border: 2px solid $color-black;
+  padding: 1rem;
+  width: 15rem;
+  height: 4rem;
+  text-align: center;
+  font-size: $default-font-size;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
