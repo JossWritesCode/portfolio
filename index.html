@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/index.css" />
 
     <script async src="./JS/index.js"></script>
-    <script src="gen_validatorv4.js" type="text/javascript"></script>
+    <script src="./gen_validatorv4.js" type="text/javascript"></script>
   </head>
   <body>
     <header>
@@ -70,7 +70,13 @@
         <div class="heading">
           <span class="heading-primary-main">Joscelyn Owen:</span>
           <span class="heading-primary-sub">full-stack web developer</span>
-          <a href="#" class="btn portfolio-btn">See my work &#8594; </a>
+          <a
+            onclick="topFunction()"
+            id="myBtn"
+            href="#"
+            class="btn portfolio-btn"
+            >See my work &#8594;
+          </a>
         </div>
       </div>
     </header>
@@ -263,7 +269,7 @@
         </form>
 
         <script language="JavaScript">
-          var frmvalidator = new Validator("contactform");
+          var frmvalidator = new Validator("contact_form");
           frmvalidator.addValidation("name", "req", "Please provide your name");
           frmvalidator.addValidation(
             "email",

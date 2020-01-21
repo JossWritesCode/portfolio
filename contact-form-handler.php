@@ -39,9 +39,9 @@ $headers = "From: $myemail\n";
 
 $headers .= "Reply-To: $email_address";
 
-mail($to,$email_subject,$email_body,$headers);
+mail($to,$email_subject,$email_body,$headers); <!-- this line may not work 405 error -->
 
-//redirect to the 'thank you' page
+<!-- //redirect to the 'thank you' page -->
 
 header('Location: contact-form-thank-you.html');
 
