@@ -1,12 +1,20 @@
 .section-contact {
   background-color: $color-primary;
   min-height: 100vh;
+}
 
-  .heading-contact {
-    font-size: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.heading-contact {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  a {
+    margin: 4rem;
   }
 }
