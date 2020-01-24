@@ -127,8 +127,10 @@ body {
 }
 
 .section-contact {
-  background-color: #5680e9;
+  background-color: #252934;
   min-height: 100vh;
+  padding-top: 8rem;
+  color: white;
 }
 
 .heading-contact {
@@ -145,6 +147,45 @@ body {
 }
 .contact-links a {
   margin: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 2.2rem;
+}
+form input {
+  width: 25%;
+  background-color: #1e242c;
+  border: none;
+  height: 25px;
+  margin: 2rem;
+  color: #fff;
+  padding: 5px;
+}
+form textarea {
+  width: 25%;
+  background-color: #1e242c;
+  border: none;
+  height: 100px;
+  margin: 2rem;
+  color: #fff;
+  padding: 5px;
+}
+form button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border: solid 2px black;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 25px;
+}
+form button:hover {
+  background: black;
+  color: white;
 }
 
 .top {
