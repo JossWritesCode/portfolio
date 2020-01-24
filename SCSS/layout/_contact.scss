@@ -1,12 +1,64 @@
 .section-contact {
-  background-color: $color-primary;
+  background-color: #252934;
   min-height: 100vh;
+  padding-top: 8rem;
+  color: white;
+}
 
-  .heading-contact {
-    font-size: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.heading-contact {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  a {
+    margin: 4rem;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 2.2rem;
+
+  input {
+    width: 25%;
+    background-color: #1e242c;
+    border: none;
+    height: 25px;
+    margin: 2rem;
+    color: #fff;
+    padding: 5px;
+  }
+
+  textarea {
+    width: 25%;
+    background-color: #1e242c;
+    border: none;
+    height: 100px;
+    margin: 2rem;
+    color: #fff;
+    padding: 5px;
+  }
+  button {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border: solid 2px black;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 25px;
+  }
+
+  button:hover {
+    background: black;
     color: white;
   }
 }

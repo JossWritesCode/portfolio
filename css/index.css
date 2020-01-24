@@ -7,6 +7,7 @@
 html {
   font-size: 62.5%;
   width: 100%;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -51,8 +52,7 @@ body {
 }
 
 .section-about {
-  padding: 2rem;
-  border: 5px solid #000;
+  padding: 8rem 2rem 2rem 2rem;
 }
 .section-about .heading-about {
   font-size: 5rem;
@@ -127,14 +127,64 @@ body {
 }
 
 .section-contact {
-  background-color: #5680e9;
+  background-color: #252934;
   min-height: 100vh;
+  padding-top: 8rem;
+  color: white;
 }
-.section-contact .heading-contact {
+
+.heading-contact {
   font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+}
+.contact-links a {
+  margin: 4rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  font-size: 2.2rem;
+}
+form input {
+  width: 25%;
+  background-color: #1e242c;
+  border: none;
+  height: 25px;
+  margin: 2rem;
+  color: #fff;
+  padding: 5px;
+}
+form textarea {
+  width: 25%;
+  background-color: #1e242c;
+  border: none;
+  height: 100px;
+  margin: 2rem;
+  color: #fff;
+  padding: 5px;
+}
+form button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  border: solid 2px black;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 25px;
+}
+form button:hover {
+  background: black;
   color: white;
 }
 
@@ -146,6 +196,30 @@ body {
   position: relative;
   padding: 1rem;
   width: 100%;
+}
+.top .desktop-navigation {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+.top .desktop-navigation .desktop-nav-items {
+  position: absolute;
+  top: 2rem;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 3rem;
+  align-items: center;
+  color: white;
+  font-size: 1.6rem;
+}
+.top .desktop-navigation .desktop-nav-items li {
+  margin: 1rem;
+  text-decoration: none;
+  list-style: none;
 }
 .top .desktop-navigation {
   display: none;
@@ -161,24 +235,6 @@ body {
     color: white;
     font-size: 1.6rem;
   }
-}
-.top .desktop-navigation .desktop-nav-items {
-  position: absolute;
-  top: -400px;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 3rem;
-  align-items: center;
-  color: white;
-  font-size: 1.6rem;
-}
-.top .desktop-navigation .desktop-nav-items li {
-  margin: 1rem;
-  text-decoration: none;
-  list-style: none;
 }
 .top .nav-wrapper {
   position: relative;
@@ -205,9 +261,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20rem;
   z-index: 5;
-  top: 0;
+  top: 20rem;
   position: absolute;
   left: 0;
   right: 0;
@@ -312,15 +367,16 @@ body {
 }
 
 .section-portfolio {
-  background-color: #5680e9;
+  background-color: #f5f5f5;
   min-height: 100vh;
+  padding-top: 8rem;
 }
 .section-portfolio .heading-portfolio {
   font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
 }
 .section-portfolio .all-projects-container {
   display: flex;
@@ -332,13 +388,14 @@ body {
   text-align: center;
 }
 .section-portfolio .all-projects-container .project-container .project .heading-tertiary {
-  color: white;
+  color: black;
   font-size: 2.2rem;
 }
 .section-portfolio .all-projects-container .project-container .project .img-wrapper {
   display: inline-block;
   height: 188px;
   overflow: hidden;
+  /*WIP: adding transparent layer and text on hover */
 }
 
 /*# sourceMappingURL=index.css.map */
