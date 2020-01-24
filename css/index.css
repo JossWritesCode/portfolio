@@ -52,8 +52,7 @@ body {
 }
 
 .section-about {
-  padding: 2rem;
-  border: 5px solid #000;
+  padding: 8rem 2rem 2rem 2rem;
 }
 .section-about .heading-about {
   font-size: 5rem;
@@ -327,15 +326,16 @@ body {
 }
 
 .section-portfolio {
-  background-color: #5680e9;
+  background-color: #f5f5f5;
   min-height: 100vh;
+  padding-top: 8rem;
 }
 .section-portfolio .heading-portfolio {
   font-size: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
 }
 .section-portfolio .all-projects-container {
   display: flex;
@@ -347,7 +347,7 @@ body {
   text-align: center;
 }
 .section-portfolio .all-projects-container .project-container .project .heading-tertiary {
-  color: white;
+  color: black;
   font-size: 2.2rem;
 }
 .section-portfolio .all-projects-container .project-container .project .img-wrapper {

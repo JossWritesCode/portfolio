@@ -1,13 +1,13 @@
 .section-portfolio {
-  background-color: rgba(86, 128, 233, 1);
+  background-color: #f5f5f5; // rgba(86, 128, 233, 1)
   min-height: 100vh;
-
+  padding-top: 8rem;
   .heading-portfolio {
     font-size: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: black;
   }
 
   .all-projects-container {
@@ -21,7 +21,7 @@
 
       .project {
         .heading-tertiary {
-          color: white;
+          color: black;
           font-size: $subheader-font-size;
         }
         .img-wrapper {
