@@ -228,10 +228,28 @@
       <section id="section-contact" class="section-contact">
         <h3 class="heading-contact">Contact</h3>
 
-        <form>
+        <form
+          class="email-form"
+          netlify-honeypot="bot-field"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
+          <div hidden aria-hidden="true">
+            <label>
+              Don’t fill this out if you're human:
+              <input name="bot-field" />
+            </label>
+          </div>
           <input placeholder="your name" type="text" name="name" />
 
-          <input placeholder="email" type="text" name="email" />
+          <input
+            id="email"
+            placeholder="email"
+            type="text"
+            name="email"
+            required
+          />
 
           <textarea placeholder="message" name="message"></textarea>
 
