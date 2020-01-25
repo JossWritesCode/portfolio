@@ -29,23 +29,31 @@ form {
   font-size: 2.2rem;
 
   input {
-    width: 25%;
+    width: 50%;
     background-color: #1e242c;
     border: none;
     height: 25px;
     margin: 2rem;
     color: #fff;
     padding: 5px;
+
+    @media (min-width: $breakpoint-desktop) {
+      width: 33%;
+    }
   }
 
   textarea {
-    width: 25%;
+    width: 50%;
     background-color: #1e242c;
     border: none;
     height: 100px;
     margin: 2rem;
     color: #fff;
     padding: 5px;
+
+    @media (min-width: $breakpoint-desktop) {
+      width: 33%;
+    }
   }
   button {
     width: 150px;
@@ -60,5 +68,22 @@ form {
   button:hover {
     background: black;
     color: white;
+  }
+}
+
+footer {
+  background-color: #1e242c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: $default-font-size;
+  padding-top: 2rem;
+  text-decoration: none;
+  .my-email {
+    color: white;
+  }
+  .my-email:hover {
+    color: $color-primary;
   }
 }
