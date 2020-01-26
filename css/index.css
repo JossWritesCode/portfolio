@@ -52,7 +52,7 @@ body {
 }
 
 .section-about {
-  padding: 6rem 2rem 2rem 2rem;
+  padding: 4rem 2rem 2rem 2rem;
 }
 .section-about .heading-about {
   font-size: 5rem;
@@ -215,18 +215,27 @@ footer .my-email:hover {
   color: #5680e9;
 }
 
+header {
+  position: relative;
+}
+
 .top {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(86, 128, 233, 0.801), rgba(90, 185, 234, 0.801)), url("../../IMG/hero-image.png");
   background-size: cover;
   background-position: top;
-  position: relative;
   padding: 1rem;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .top .desktop-navigation {
-  position: relative;
-  margin: 0;
+  display: block;
+  position: absolute;
+  top: -100px;
+  left: 0;
   width: 100%;
   height: 100%;
 }
@@ -264,7 +273,7 @@ footer .my-email:hover {
   }
 }
 .top .nav-wrapper {
-  position: relative;
+  display: block;
 }
 @media (min-width: 800px) {
   .top .nav-wrapper {
@@ -274,7 +283,6 @@ footer .my-email:hover {
 .top .nav-wrapper::before,
 .top .nav-wrapper::after {
   content: "";
-  position: relative;
   display: block;
   width: 100%;
   height: 50%;
@@ -288,23 +296,23 @@ footer .my-email:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   z-index: 5;
   top: 20rem;
   position: absolute;
-  left: 0;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 .heading .heading-primary-main {
   font-size: 4rem;
   color: #fff;
 }
 .heading .heading-primary-sub {
-  font-size: 3rem;
+  font-size: 2rem;
   color: #fff;
 }
 
+.nav-wrapper {
+  display: block;
+}
 .nav-wrapper nav {
   position: absolute;
   top: 0;
@@ -354,7 +362,6 @@ footer .my-email:hover {
 }
 
 .nav-toogler {
-  position: relative;
   display: inline-block;
   width: 40px;
   padding: 14px 5px;
@@ -368,7 +375,6 @@ footer .my-email:hover {
 .nav-toogler::before,
 .nav-toogler::after {
   content: "";
-  position: relative;
   display: block;
   width: 30px;
   height: 3px;
@@ -396,7 +402,7 @@ footer .my-email:hover {
 .section-portfolio {
   background-color: #f5f5f5;
   min-height: 100vh;
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 .section-portfolio .heading-portfolio {
   font-size: 5rem;
