@@ -20,6 +20,7 @@
       text-align: center;
 
       .project {
+        margin: 0 1rem;
         .heading-tertiary {
           color: black;
           font-size: $subheader-font-size;
@@ -28,12 +29,12 @@
           display: inline-block;
           height: 188px;
           overflow: hidden;
-          /*WIP: adding transparent layer and text on hover */
-          // img:hover {
-          //   -moz-box-shadow: 0 0 10px #ccc;
-          //   -webkit-box-shadow: 0 0 10px #ccc;
-          //   box-shadow: 0 0 10px #ccc;
-          // }
+
+          img {
+            @media (min-width: 500px) {
+              width: 450px;
+            }
+          }
         }
       }
     }

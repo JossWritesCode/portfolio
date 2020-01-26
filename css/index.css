@@ -420,6 +420,9 @@ header {
   margin: 1rem;
   text-align: center;
 }
+.section-portfolio .all-projects-container .project-container .project {
+  margin: 0 1rem;
+}
 .section-portfolio .all-projects-container .project-container .project .heading-tertiary {
   color: black;
   font-size: 2.2rem;
@@ -428,7 +431,11 @@ header {
   display: inline-block;
   height: 188px;
   overflow: hidden;
-  /*WIP: adding transparent layer and text on hover */
+}
+@media (min-width: 500px) {
+  .section-portfolio .all-projects-container .project-container .project .img-wrapper img {
+    width: 450px;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
