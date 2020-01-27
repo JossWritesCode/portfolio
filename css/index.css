@@ -14,8 +14,14 @@ html,
 body {
   max-width: 100%;
   overflow-x: hidden;
+  list-style-type: none;
+  text-decoration: none;
   padding: 0;
   margin: 0;
+}
+
+ul li {
+  list-style-type: none;
 }
 
 *,
@@ -52,7 +58,7 @@ body {
 }
 
 .section-about {
-  padding: 6rem 2rem 2rem 2rem;
+  padding: 4rem 2rem 2rem 2rem;
 }
 .section-about .heading-about {
   font-size: 5rem;
@@ -225,30 +231,6 @@ footer .my-email:hover {
   width: 100%;
 }
 .top .desktop-navigation {
-  position: relative;
-  margin: 0;
-  width: 100%;
-  height: 100%;
-}
-.top .desktop-navigation .desktop-nav-items {
-  position: absolute;
-  top: 2rem;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 3rem;
-  align-items: center;
-  color: white;
-  font-size: 2.2rem;
-}
-.top .desktop-navigation .desktop-nav-items li {
-  margin: 1rem;
-  text-decoration: none;
-  list-style: none;
-}
-.top .desktop-navigation {
   display: none;
 }
 @media (min-width: 800px) {
@@ -262,6 +244,24 @@ footer .my-email:hover {
     color: white;
     font-size: 1.6rem;
   }
+}
+.top .desktop-navigation .desktop-nav-items {
+  position: absolute;
+  top: -360px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 3rem;
+  align-items: center;
+  color: white;
+  font-size: 1.6rem;
+}
+.top .desktop-navigation .desktop-nav-items li {
+  margin: 1rem;
+  text-decoration: none;
+  list-style: none;
 }
 .top .nav-wrapper {
   position: relative;
@@ -288,8 +288,9 @@ footer .my-email:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 20rem;
   z-index: 5;
-  top: 20rem;
+  top: 0;
   position: absolute;
   left: 0;
   right: 0;
@@ -396,7 +397,7 @@ footer .my-email:hover {
 .section-portfolio {
   background-color: #f5f5f5;
   min-height: 100vh;
-  padding-top: 6rem;
+  padding-top: 4rem;
 }
 .section-portfolio .heading-portfolio {
   font-size: 5rem;
@@ -414,6 +415,9 @@ footer .my-email:hover {
   margin: 1rem;
   text-align: center;
 }
+.section-portfolio .all-projects-container .project-container .project {
+  margin: 0 1rem;
+}
 .section-portfolio .all-projects-container .project-container .project .heading-tertiary {
   color: black;
   font-size: 2.2rem;
@@ -422,7 +426,51 @@ footer .my-email:hover {
   display: inline-block;
   height: 188px;
   overflow: hidden;
-  /*WIP: adding transparent layer and text on hover */
+}
+@media (min-width: 500px) {
+  .section-portfolio .all-projects-container .project-container .project .img-wrapper img {
+    width: 450px;
+  }
+}
+
+.project-hover {
+  background-size: cover;
+  background-position: top;
+  width: 450px;
+  height: 188px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  border: none;
+}
+.project-hover .project-text-hover {
+  display: none;
+}
+
+.project-hover:hover {
+  background-image: linear-gradient(to bottom, #5680e9, #5680e9), url("../../IMG/hows-the-weather.png") !important;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.project-hover:hover .project-text-hover {
+  display: flex;
+  color: white;
+  font-size: 1.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-hover:hover .project-text-hover .list-of-libraries {
+  display: flex;
+  text-decoration: none;
+  justify-content: space-between;
+}
+.project-hover:hover .project-text-hover .list-of-libraries li {
+  margin: 5px;
+}
+.project-hover:hover .project-text-hover button {
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */
