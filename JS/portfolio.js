@@ -95,6 +95,7 @@ function createPortfolio(
 
   const listOfLibraries = document.createElement("ul");
   listOfLibraries.classList.add("list-of-libraries");
+
   for (let library of librariesUsed) {
     let liElement = document.createElement("li");
     liElement.textContent = library;
@@ -103,14 +104,27 @@ function createPortfolio(
 
   projectTextHover.appendChild(listOfLibraries);
 
-  const aTag = document.createElement("a");
-  aTag.href = siteLink;
-  projectTextHover.appendChild(aTag);
+  const buttonGroup = document.createElement("div");
+  buttonGroup.classList.add("project-button-group");
+  projectTextHover.appendChild(buttonGroup);
 
-  const learnMoreButton = document.createElement("button");
-  learnMoreButton.classList.add("btn");
-  learnMoreButton.textContent = "Learn More";
-  aTag.appendChild(learnMoreButton);
+  const siteATag = document.createElement("a");
+  siteATag.href = siteLink;
+  buttonGroup.appendChild(siteATag);
+
+  const goToSiteButton = document.createElement("button");
+  goToSiteButton.classList.add("project-btn");
+  goToSiteButton.textContent = "Live Site";
+  siteATag.appendChild(goToSiteButton);
+
+  const gitHubATag = document.createElement("a");
+  gitHubATag.href = gitHubLink;
+  buttonGroup.appendChild(gitHubATag);
+
+  const gitHubButton = document.createElement("button");
+  gitHubButton.classList.add("project-btn");
+  gitHubButton.textContent = "Source Code";
+  gitHubATag.appendChild(gitHubButton);
 
   return project;
 }
