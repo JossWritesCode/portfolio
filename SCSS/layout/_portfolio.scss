@@ -32,7 +32,7 @@
 
           img {
             @media (min-width: 500px) {
-              width: 450px;
+              width: 280px;
             }
           }
         }
@@ -72,7 +72,7 @@
   .project-text-hover {
     display: flex;
     color: white;
-    font-size: $default-font-size;
+    font-size: 1.4rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -80,6 +80,7 @@
     .list-of-libraries {
       display: flex;
       text-decoration: none;
+      font-size: 1.4rem;
       justify-content: space-between;
 
       li {
