@@ -65,7 +65,7 @@ body {
 
 .project-btn {
   color: white !important;
-  background-color: #5680e9;
+  background-color: #252934;
   border: 2px solid #fff;
   padding: 1rem;
   width: 9rem;
@@ -159,9 +159,14 @@ body {
 
 .section-contact {
   background-color: #252934;
-  min-height: 100vh;
+  min-height: 50vh;
   padding-top: 8rem;
   color: white;
+}
+@media (min-width: 1100px) {
+  .section-contact {
+    min-height: 85vh;
+  }
 }
 
 .heading-contact {
@@ -223,6 +228,7 @@ form button {
   border-radius: 5px;
   background: rgba(255, 255, 255, 0);
   font-size: 25px;
+  margin-bottom: 5rem;
 }
 form button:hover {
   background: black;
@@ -448,7 +454,7 @@ footer .my-email:hover {
   justify-content: center;
 }
 .section-portfolio .all-projects-container .project-container {
-  margin: 1rem;
+  margin: 2rem;
   text-align: center;
 }
 .section-portfolio .all-projects-container .project-container .project {
@@ -484,7 +490,7 @@ footer .my-email:hover {
 }
 
 .project-hover:hover {
-  background-image: linear-gradient(to bottom, #5680e9, #5680e9), url("../../IMG/hows-the-weather.png") !important;
+  background-image: linear-gradient(to bottom, #1e242c, #1e242c), url("../../IMG/hows-the-weather.png") !important;
   background-size: cover;
   background-position: top;
   position: relative;

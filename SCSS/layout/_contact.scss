@@ -1,8 +1,12 @@
 .section-contact {
   background-color: #252934;
-  min-height: 100vh;
+  min-height: 50vh;
   padding-top: 8rem;
   color: white;
+
+  @media (min-width: $breakpoint-desktop) {
+    min-height: 85vh;
+  }
 }
 
 .heading-contact {
@@ -63,6 +67,7 @@ form {
     border-radius: 5px;
     background: rgba(255, 255, 255, 0);
     font-size: 25px;
+    margin-bottom: 5rem;
   }
 
   button:hover {
