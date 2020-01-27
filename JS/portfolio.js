@@ -1,5 +1,24 @@
 const portfolioData = [
   {
+    title: "Lambda Bug Tracker",
+    siteLink: "https://lambda-bug-tracker.firebaseapp.com/",
+    imageURL: "./IMG/lambda-bug-tracker.png",
+    description:
+      "This app allows you to make bug tickets and keep track of them.",
+    gitHubLink: "https://github.com/Lambda-Bug-Tracker/Front-End",
+    librariesUsed: ["React", "Redux", "Firebase"],
+    date: "January 2020"
+  },
+  {
+    title: "Celebrity Dead or Alive Quiz",
+    siteLink: "http://celebrity-dead-or-alive.herokuapp.com/",
+    imageURL: "./IMG/celebrity-dead-or-alive.png",
+    description: "How well do you know which celebrities are alive or dead?",
+    gitHubLink: "https://github.com/build-week-celebrity/back-end",
+    librariesUsed: ["React", "Redux"],
+    date: "January 2020"
+  },
+  {
     title: "Read Refugee Stories",
     siteLink: "https://readrefugeestories.netlify.com",
     imageURL: "./IMG/refugee-stories.png",
@@ -16,6 +35,16 @@ const portfolioData = [
     imageURL: "./IMG/hows-the-weather.png",
     description: "Find out the weather in any major city!",
     librariesUsed: ["React", "Redux", "MetaWeather API"],
+    date: "August 2019"
+  },
+
+  {
+    title: "Hercules Weightlifting App",
+    siteLink: "https://buildweek-weight-lifting.github.io/joscelyn-owen/",
+    gitHubLink: "https://github.com/buildweek-weight-lifting/joscelyn-owen",
+    imageURL: "./IMG/hercules-weightlifting-app.png",
+    description: "Track your weight-lifting with this stylish app.",
+    librariesUsed: ["React"],
     date: "August 2019"
   },
   {
