@@ -405,6 +405,7 @@ footer .my-email:hover {
   content: "";
   position: relative;
   display: block;
+  max-width: 30px;
   width: 30px;
   height: 3px;
   background-color: #5680e9;
@@ -421,6 +422,7 @@ footer .my-email:hover {
   top: 50%;
   background-color: #5680e9;
   transform: rotate(135deg);
+  max-width: 30px;
 }
 
 .nav-wrapper.active .nav-toogler::after {
