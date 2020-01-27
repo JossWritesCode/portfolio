@@ -16,7 +16,7 @@
     justify-content: center;
 
     .project-container {
-      margin: 1rem;
+      margin: 2rem;
       text-align: center;
 
       .project {
@@ -61,8 +61,8 @@
 .project-hover:hover {
   background-image: linear-gradient(
       to bottom,
-      rgba(86, 128, 233, 1),
-      rgba(86, 128, 233, 1)
+      rgba(30, 36, 44, 1),
+      rgba(30, 36, 44, 1)
     ),
     url("../../IMG/hows-the-weather.png") !important;
   background-size: cover;
