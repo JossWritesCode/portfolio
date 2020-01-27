@@ -73,7 +73,6 @@ function createPortfolio(
   librariesUsed,
   date
 ) {
-  //define new elements
   const project = document.createElement("div");
   project.classList.add("project");
 
@@ -110,6 +109,7 @@ function createPortfolio(
 
   const learnMoreButton = document.createElement("button");
   learnMoreButton.classList.add("btn");
+  learnMoreButton.textContent = "Learn More";
   aTag.appendChild(learnMoreButton);
 
   return project;

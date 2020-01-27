@@ -60,11 +60,11 @@
 
 .project-hover:hover {
   background-image: linear-gradient(
-      to right bottom,
-      rgba($color-primary-dark, 0.99),
-      rgba($color-primary-dark, 0.99)
+      to bottom,
+      rgba(86, 128, 233, 1),
+      rgba(86, 128, 233, 1)
     ),
-    url("../../IMG/hows-the-weather.png");
+    url("../../IMG/hows-the-weather.png") !important;
   background-size: cover;
   background-position: top;
   position: relative;
@@ -80,6 +80,11 @@
     .list-of-libraries {
       display: flex;
       text-decoration: none;
+      justify-content: space-between;
+
+      li {
+        margin: 5px;
+      }
     }
 
     button {
