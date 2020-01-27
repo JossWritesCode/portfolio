@@ -471,7 +471,7 @@ footer .my-email:hover {
 }
 @media (min-width: 500px) {
   .section-portfolio .all-projects-container .project-container .project .img-wrapper img {
-    width: 450px;
+    width: 280px;
   }
 }
 
@@ -498,7 +498,7 @@ footer .my-email:hover {
 .project-hover:hover .project-text-hover {
   display: flex;
   color: white;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -506,6 +506,7 @@ footer .my-email:hover {
 .project-hover:hover .project-text-hover .list-of-libraries {
   display: flex;
   text-decoration: none;
+  font-size: 1.4rem;
   justify-content: space-between;
 }
 .project-hover:hover .project-text-hover .list-of-libraries li {
