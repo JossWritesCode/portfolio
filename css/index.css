@@ -215,47 +215,14 @@ footer .my-email:hover {
   color: #5680e9;
 }
 
-header {
-  position: relative;
-}
-
 .top {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(86, 128, 233, 0.801), rgba(90, 185, 234, 0.801)), url("../../IMG/hero-image.png");
   background-size: cover;
   background-position: top;
+  position: relative;
   padding: 1rem;
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.top .desktop-navigation {
-  display: block;
-  position: absolute;
-  top: -100px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.top .desktop-navigation .desktop-nav-items {
-  position: absolute;
-  top: 2rem;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  margin-right: 3rem;
-  align-items: center;
-  color: white;
-  font-size: 2.2rem;
-}
-.top .desktop-navigation .desktop-nav-items li {
-  margin: 1rem;
-  text-decoration: none;
-  list-style: none;
 }
 .top .desktop-navigation {
   display: none;
@@ -272,8 +239,26 @@ header {
     font-size: 1.6rem;
   }
 }
+.top .desktop-navigation .desktop-nav-items {
+  position: absolute;
+  top: -360px;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 3rem;
+  align-items: center;
+  color: white;
+  font-size: 1.6rem;
+}
+.top .desktop-navigation .desktop-nav-items li {
+  margin: 1rem;
+  text-decoration: none;
+  list-style: none;
+}
 .top .nav-wrapper {
-  display: block;
+  position: relative;
 }
 @media (min-width: 800px) {
   .top .nav-wrapper {
@@ -283,6 +268,7 @@ header {
 .top .nav-wrapper::before,
 .top .nav-wrapper::after {
   content: "";
+  position: relative;
   display: block;
   width: 100%;
   height: 50%;
@@ -296,23 +282,24 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  margin-top: 20rem;
   z-index: 5;
-  top: 20rem;
+  top: 0;
   position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .heading .heading-primary-main {
   font-size: 4rem;
   color: #fff;
 }
 .heading .heading-primary-sub {
-  font-size: 2rem;
+  font-size: 3rem;
   color: #fff;
 }
 
-.nav-wrapper {
-  display: block;
-}
 .nav-wrapper nav {
   position: absolute;
   top: 0;
@@ -362,6 +349,7 @@ header {
 }
 
 .nav-toogler {
+  position: relative;
   display: inline-block;
   width: 40px;
   padding: 14px 5px;
@@ -375,6 +363,7 @@ header {
 .nav-toogler::before,
 .nav-toogler::after {
   content: "";
+  position: relative;
   display: block;
   width: 30px;
   height: 3px;
@@ -436,6 +425,46 @@ header {
   .section-portfolio .all-projects-container .project-container .project .img-wrapper img {
     width: 450px;
   }
+}
+
+#weather {
+  background-image: url("../../IMG/hows-the-weather.png");
+}
+
+.project-hover {
+  background-size: cover;
+  background-position: top;
+  width: 450px;
+  height: 188px;
+  overflow: hidden;
+  position: relative;
+  display: inline-block;
+  border: none;
+}
+.project-hover .project-text-hover {
+  display: none;
+}
+
+.project-hover:hover {
+  background-image: linear-gradient(to right bottom, rgba(136, 96, 208, 0.99), rgba(136, 96, 208, 0.99)), url("../../IMG/hows-the-weather.png");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+.project-hover:hover .project-text-hover {
+  display: flex;
+  color: white;
+  font-size: 1.6rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.project-hover:hover .project-text-hover .list-of-libraries {
+  display: flex;
+  text-decoration: none;
+}
+.project-hover:hover .project-text-hover button {
+  color: black;
 }
 
 /*# sourceMappingURL=index.css.map */

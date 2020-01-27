@@ -40,3 +40,50 @@
     }
   }
 }
+
+.project-hover {
+  background-size: cover;
+  background-position: top;
+  width: 450px;
+  height: 188px;
+  overflow: hidden;
+
+  position: relative;
+  display: inline-block;
+
+  border: none;
+
+  .project-text-hover {
+    display: none;
+  }
+}
+
+.project-hover:hover {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-primary-dark, 0.99),
+      rgba($color-primary-dark, 0.99)
+    ),
+    url("../../IMG/hows-the-weather.png");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  .project-text-hover {
+    display: flex;
+    color: white;
+    font-size: $default-font-size;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .list-of-libraries {
+      display: flex;
+      text-decoration: none;
+    }
+
+    button {
+      color: black;
+    }
+  }
+}
