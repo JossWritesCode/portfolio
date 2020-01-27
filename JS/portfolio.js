@@ -3,6 +3,7 @@ const portfolioData = [
     title: "Read Refugee Stories",
     siteLink: "https://readrefugeestories.netlify.com",
     imageURL: "./IMG/refugee-stories.png",
+    description: "A platform for displaced people to share their stories.",
     gitHubLink: "https://github.com/build-refugee-stories/refugee-stories-fe",
     librariesUsed: ["React"],
     date: "August 2019"
@@ -13,6 +14,7 @@ const portfolioData = [
     siteLink: "https://xenodochial-goldstine-c0481e.netlify.com/",
     gitHubLink: "https://github.com/Joscelyn1/weather-app",
     imageURL: "./IMG/hows-the-weather.png",
+    description: "Find out the weather in any major city!",
     librariesUsed: ["React", "Redux", "MetaWeather API"],
     date: "August 2019"
   },
@@ -20,6 +22,7 @@ const portfolioData = [
     title: "Random Encounter Generator",
     siteLink: "https://5e-encounters.netlify.com/",
     imageURL: "./IMG/random-encounter-generator.png",
+    description: "A toolkit to make dungeon masters' lives easier!",
     gitHubLink: "https://github.com/DuckEverlasting/Random-Character-Generator",
     librariesUsed: ["React", "Redux"],
     date: "June 2019"
@@ -28,6 +31,7 @@ const portfolioData = [
     title: "Matching Card Game",
     siteLink: "https://joscelyn1.github.io/Matching-Card-Game/",
     imageURL: "./IMG/card-matching-game.png",
+    description: "This classic card matching game is great fun.",
     gitHubLink: "https://github.com/Joscelyn1/Matching-Card-Game",
     librariesUsed: ["vanilla JS"],
     date: "October 2018"
@@ -36,6 +40,7 @@ const portfolioData = [
     title: "Frogger Clone",
     siteLink: "https://joscelyn1.github.io/Frogger-Style-Game/",
     imageURL: "./IMG/frogger-clone.png",
+    description: "This game resembles the classic arcade game Frogger.",
     gitHubLink: "https://github.com/Joscelyn1/Frogger-Style-Game",
     librariesUsed: ["vanilla JS"],
     date: "June 2018"
@@ -46,7 +51,8 @@ const portfolioData = [
     imageURL: "./IMG/pixel-art-maker.png",
     gitHubLink: "https://github.com/Joscelyn1/Pixel-Art-Maker",
     librariesUsed: ["vanilla JS"],
-    date: "June 2018"
+    date: "June 2018",
+    description: "Create pixel art with this application"
   }
 ];
 
@@ -60,7 +66,8 @@ portfolioData.forEach(event => {
       event.imageURL,
       event.gitHubLink,
       event.librariesUsed,
-      event.date
+      event.date,
+      event.description
     )
   );
 });
@@ -71,7 +78,8 @@ function createPortfolio(
   imageURL,
   gitHubLink,
   librariesUsed,
-  date
+  date,
+  description
 ) {
   const project = document.createElement("div");
   project.classList.add("project");
@@ -93,12 +101,34 @@ function createPortfolio(
   projectTitle.textContent = title;
   projectTextHover.appendChild(projectTitle);
 
+  const projectDate = document.createElement("h5");
+  projectDate.textContent = date;
+  projectTextHover.appendChild(projectDate);
+
+  const projectDescription = document.createElement("p");
+  projectDescription.textContent = description;
+  projectTextHover.appendChild(projectDescription);
+
   const listOfLibraries = document.createElement("ul");
   listOfLibraries.classList.add("list-of-libraries");
+  listOfLibraries.textContent = "Built with:";
+  listOfLibraries.style.display = "flex";
+  listOfLibraries.style.flexDirection = "row";
+  listOfLibraries.style.alignItems = "center";
 
-  for (let library of librariesUsed) {
+  for (let i = 0; i < librariesUsed.length; i++) {
     let liElement = document.createElement("li");
-    liElement.textContent = library;
+
+    if (librariesUsed.length > 1) {
+      if (i === librariesUsed.length - 1) {
+        liElement.textContent = librariesUsed[i];
+      } else {
+        liElement.textContent = librariesUsed[i] + " | ";
+      }
+    } else {
+      liElement.textContent = librariesUsed[i];
+    }
+
     listOfLibraries.appendChild(liElement);
   }
 
