@@ -60,19 +60,7 @@ form {
     }
   }
   button {
-    width: 150px;
-    height: 50px;
-    border: none;
-    border: solid 2px black;
-    border-radius: 5px;
-    background: rgba(255, 255, 255, 0);
-    font-size: 25px;
     margin-bottom: 5rem;
-  }
-
-  button:hover {
-    background: black;
-    color: white;
   }
 }
 
@@ -89,6 +77,6 @@ footer {
     color: white;
   }
   .my-email:hover {
-    color: $color-primary;
+    color: $color-secondary;
   }
 }
