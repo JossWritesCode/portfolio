@@ -131,6 +131,7 @@ function createPortfolio(
 
   const projectTitle = document.createElement("h3");
   projectTitle.textContent = title;
+
   projectTextHover.appendChild(projectTitle);
 
   const projectDate = document.createElement("h5");

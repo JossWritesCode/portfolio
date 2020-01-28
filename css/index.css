@@ -63,6 +63,10 @@ body {
   width: 100%;
 }
 
+#myBtn:hover {
+  color: #000;
+}
+
 .project-btn {
   color: white !important;
   background-color: #252934;
@@ -275,6 +279,9 @@ footer .my-email:hover {
 .top nav a {
   margin-right: 2rem;
 }
+.top nav a:hover {
+  color: #000;
+}
 
 .heading {
   display: flex;
@@ -333,7 +340,7 @@ footer .my-email:hover {
   margin: 0 1rem;
 }
 .section-portfolio .all-projects-container .project-container .project .heading-tertiary {
-  color: black;
+  color: #007fff;
   font-size: 2.2rem;
 }
 .section-portfolio .all-projects-container .project-container .project .img-wrapper {
