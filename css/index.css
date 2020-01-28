@@ -46,12 +46,14 @@ body {
 
 .btn {
   color: #fff;
-  border: 2px solid #000;
+  font-weight: bold;
+  border: none;
+  background-color: #ff8000;
   padding: 1rem;
-  width: 15rem;
-  height: 4rem;
+  width: 11rem;
+  height: 3rem;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -64,26 +66,37 @@ body {
 }
 
 #myBtn:hover {
-  color: #000;
+  border: none;
+  background-color: #ffc080;
+}
+
+#contact-button {
+  background-color: #007fff;
+}
+
+#contact-button:hover {
+  background-color: #ff8000;
 }
 
 .project-btn {
-  color: white !important;
-  background-color: #252934;
-  border: 2px solid #fff;
+  color: #fff !important;
+  background-color: #ff8000;
+  border: 2px solid #ff8000;
   padding: 1rem;
-  width: 9rem;
+  width: 8rem;
+  font-weight: bold;
   height: 2rem;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .project-btn:hover {
-  background-color: #fff;
-  color: black !important;
+  background-color: #ffc080;
+  border: #ffc080;
+  color: #fff !important;
 }
 
 .section-about {
@@ -225,18 +238,7 @@ form textarea {
   }
 }
 form button {
-  width: 150px;
-  height: 50px;
-  border: none;
-  border: solid 2px black;
-  border-radius: 5px;
-  background: rgba(255, 255, 255, 0);
-  font-size: 25px;
   margin-bottom: 5rem;
-}
-form button:hover {
-  background: black;
-  color: white;
 }
 
 footer {
@@ -253,7 +255,7 @@ footer .my-email {
   color: white;
 }
 footer .my-email:hover {
-  color: #007fff;
+  color: #ff8000;
 }
 
 .top {
@@ -280,7 +282,7 @@ footer .my-email:hover {
   margin-right: 2rem;
 }
 .top nav a:hover {
-  color: #000;
+  color: #ff8000;
 }
 
 .heading {
@@ -369,7 +371,7 @@ footer .my-email:hover {
 }
 
 .project-hover:hover {
-  background-image: linear-gradient(to bottom, #1e242c, #1e242c), url("../../IMG/hows-the-weather.png") !important;
+  background-image: linear-gradient(to bottom, #252934, #252934), url("../../IMG/hows-the-weather.png") !important;
   background-size: cover;
   background-position: top;
   position: relative;
