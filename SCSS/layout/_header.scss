@@ -15,6 +15,21 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  nav {
+    color: $color-white;
+    font-size: $default-font-size;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    a {
+      margin-right: 2rem;
+    }
+
+    a:hover {
+      color: $color-black;
+    }
+  }
 }
 
 .heading {

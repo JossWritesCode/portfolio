@@ -16,6 +16,10 @@
   justify-content: space-evenly;
   width: 100%;
 }
+
+#myBtn:hover {
+  color: $color-black;
+}
 .project-btn {
   color: white !important;
   background-color: #252934;
