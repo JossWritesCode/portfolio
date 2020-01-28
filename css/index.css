@@ -265,6 +265,16 @@ footer .my-email:hover {
   justify-content: center;
   align-items: center;
 }
+.top nav {
+  color: #fff;
+  font-size: 1.6rem;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+.top nav a {
+  margin-right: 2rem;
+}
 
 .heading {
   display: flex;
