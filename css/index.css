@@ -249,12 +249,12 @@ footer .my-email {
   color: white;
 }
 footer .my-email:hover {
-  color: #5680e9;
+  color: #007fff;
 }
 
 .top {
   height: 100vh;
-  background-image: linear-gradient(to right bottom, rgba(86, 128, 233, 0.801), rgba(90, 185, 234, 0.801)), url("../../IMG/hero-image.png");
+  background-image: linear-gradient(to right bottom, rgba(0, 127, 255, 0.801), rgba(0, 127, 255, 0.801)), url("../../IMG/hero-image.png");
   background-size: cover;
   background-position: top;
   position: relative;
@@ -310,7 +310,7 @@ footer .my-email:hover {
   background-color: #fff;
 }
 .top .nav-wrapper::after {
-  background-color: #5680e9;
+  background-color: #007fff;
 }
 
 .heading {
@@ -361,7 +361,7 @@ footer .my-email:hover {
   transition: 0.3s;
 }
 .nav-wrapper nav a:hover {
-  color: #5680e9;
+  color: #007fff;
 }
 
 .navigation {
@@ -414,7 +414,7 @@ footer .my-email:hover {
   max-width: 30px;
   width: 30px;
   height: 3px;
-  background-color: #5680e9;
+  background-color: #007fff;
   transition: 0.4s cubic-bezier(0.77, 0, 0.18, 1);
 }
 
@@ -426,7 +426,7 @@ footer .my-email:hover {
 .nav-wrapper.active .nav-toogler::after {
   position: absolute;
   top: 50%;
-  background-color: #5680e9;
+  background-color: #007fff;
   transform: rotate(135deg);
   max-width: 30px;
 }
@@ -437,7 +437,7 @@ footer .my-email:hover {
 }
 
 .section-portfolio {
-  background-color: #f5f5f5;
+  background-color: #007fff;
   min-height: 100vh;
   padding-top: 4rem;
 }
@@ -446,7 +446,7 @@ footer .my-email:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: white;
 }
 .section-portfolio .all-projects-container {
   display: flex;
