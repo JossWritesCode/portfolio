@@ -285,8 +285,8 @@ footer .my-email:hover {
   color: #fff;
   font-size: 1.6rem;
   position: absolute;
-  top: 1rem;
-  left: 1rem;
+  top: 1.6rem;
+  left: 1.6rem;
 }
 .top nav a {
   margin-right: 3.2rem;
@@ -411,7 +411,7 @@ footer .my-email:hover {
   justify-content: space-between;
 }
 .project-hover:hover .project-text-hover .list-of-libraries li {
-  margin: 1.6rem;
+  margin: 0.3rem;
 }
 .project-hover:hover .project-text-hover button {
   color: black;

@@ -154,7 +154,7 @@ function createPortfolio(
       if (i === librariesUsed.length - 1) {
         liElement.textContent = librariesUsed[i];
       } else {
-        liElement.textContent = librariesUsed[i] + " | ";
+        liElement.textContent = librariesUsed[i] + ",";
       }
     } else {
       liElement.textContent = librariesUsed[i];
