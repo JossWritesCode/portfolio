@@ -1,7 +1,8 @@
+/* 16px 32px 48px or 64px*/
 .section-portfolio {
   background-color: #007fff;
   min-height: 100vh;
-  padding-top: 4rem;
+  padding-top: 4.8rem;
   .heading-portfolio {
     font-size: 5rem;
     display: flex;
@@ -16,11 +17,11 @@
     justify-content: center;
 
     .project-container {
-      margin: 2rem;
+      margin: 1.6rem;
       text-align: center;
 
       .project {
-        margin: 0 1rem;
+        margin: 0 1.6rem;
         .heading-tertiary {
           color: $color-primary;
           font-size: $subheader-font-size;
@@ -50,7 +51,7 @@
 
   position: relative;
   display: inline-block;
-
+  border-radius: 10px;
   border: none;
 
   .project-text-hover {
@@ -68,6 +69,7 @@
   background-size: cover;
   background-position: top;
   position: relative;
+  border-radius: 10px;
 
   .project-text-hover {
     display: flex;
@@ -84,7 +86,7 @@
       justify-content: space-between;
 
       li {
-        margin: 5px;
+        margin: 1.6rem;
       }
     }
 
