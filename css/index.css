@@ -32,6 +32,10 @@ ul li {
   box-sizing: inherit;
 }
 
+button {
+  border-radius: 10px;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -44,6 +48,7 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+/* 16px 32px 48px or 64px*/
 .btn {
   color: #fff;
   font-weight: bold;
@@ -57,6 +62,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .project-button-group {
@@ -67,6 +73,7 @@ body {
 
 #myBtn:hover {
   border: none;
+  border-radius: 10px;
   background-color: #ffc080;
 }
 
@@ -82,7 +89,7 @@ body {
   color: #fff !important;
   background-color: #ff8000;
   border: 2px solid #ff8000;
-  padding: 1rem;
+  padding: 1.6rem;
   width: 8rem;
   font-weight: bold;
   height: 2rem;
@@ -99,8 +106,9 @@ body {
   color: #fff !important;
 }
 
+/* 16px 32px 48px or 64px*/
 .section-about {
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4.8rem 3.2rem 3.2rem 3.2rem;
 }
 .section-about .heading-about {
   font-size: 5rem;
@@ -113,13 +121,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 4.8rem;
   font-size: 1.6rem;
   text-align: center;
 }
 .section-about .personal .image-of-me {
   border-radius: 50%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.6rem;
 }
 .section-about .personal p {
   max-width: 50rem;
@@ -144,7 +152,7 @@ body {
   width: 20rem;
 }
 .section-about .features .feature-box .heading-tertiary {
-  font-size: 3rem;
+  font-size: 3.2rem;
 }
 .section-about .features .feature-list {
   text-decoration: none;
@@ -153,6 +161,7 @@ body {
   text-align: left;
 }
 
+/* 16px 32px 48px or 64px*/
 .section-blog {
   background-color: white;
   border: 5px solid #000;
@@ -170,14 +179,15 @@ body {
   justify-content: center;
 }
 .section-blog .all-blogs-container .blog-container {
-  margin: 1rem;
+  margin: 1.6rem;
   text-align: center;
 }
 
+/* 16px 32px 48px or 64px*/
 .section-contact {
   background-color: #252934;
   min-height: 50vh;
-  padding-top: 8rem;
+  padding-top: 6.4rem;
   color: white;
 }
 @media (min-width: 1100px) {
@@ -199,7 +209,7 @@ body {
   justify-content: center;
 }
 .contact-links a {
-  margin: 4rem;
+  margin: 4.8rem;
 }
 
 form {
@@ -214,7 +224,7 @@ form input {
   background-color: #1e242c;
   border: none;
   height: 25px;
-  margin: 2rem;
+  margin: 3.2rem;
   color: #fff;
   padding: 5px;
 }
@@ -228,7 +238,7 @@ form textarea {
   background-color: #1e242c;
   border: none;
   height: 100px;
-  margin: 2rem;
+  margin: 3.2rem;
   color: #fff;
   padding: 5px;
 }
@@ -238,7 +248,7 @@ form textarea {
   }
 }
 form button {
-  margin-bottom: 5rem;
+  margin-bottom: 4.8rem;
 }
 
 footer {
@@ -248,7 +258,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: 1.6rem;
-  padding-top: 2rem;
+  padding-top: 3.2rem;
   text-decoration: none;
 }
 footer .my-email {
@@ -258,13 +268,14 @@ footer .my-email:hover {
   color: #ff8000;
 }
 
+/* 16px 32px 48px or 64px*/
 .top {
   height: 100vh;
   background-image: linear-gradient(to right bottom, rgba(0, 127, 255, 0.801), rgba(0, 127, 255, 0.801)), url("../../IMG/hero-image.png");
   background-size: cover;
   background-position: top;
   position: relative;
-  padding: 1rem;
+  padding: 1.6rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -279,7 +290,7 @@ footer .my-email:hover {
   left: 1rem;
 }
 .top nav a {
-  margin-right: 2rem;
+  margin-right: 3.2rem;
 }
 .top nav a:hover {
   color: #ff8000;
@@ -317,10 +328,11 @@ footer .my-email:hover {
   }
 }
 
+/* 16px 32px 48px or 64px*/
 .section-portfolio {
   background-color: #007fff;
   min-height: 100vh;
-  padding-top: 4rem;
+  padding-top: 4.8rem;
 }
 .section-portfolio .heading-portfolio {
   font-size: 5rem;
@@ -335,11 +347,11 @@ footer .my-email:hover {
   justify-content: center;
 }
 .section-portfolio .all-projects-container .project-container {
-  margin: 2rem;
+  margin: 1.6rem;
   text-align: center;
 }
 .section-portfolio .all-projects-container .project-container .project {
-  margin: 0 1rem;
+  margin: 0 1.6rem;
 }
 .section-portfolio .all-projects-container .project-container .project .heading-tertiary {
   color: #007fff;
@@ -364,6 +376,7 @@ footer .my-email:hover {
   overflow: hidden;
   position: relative;
   display: inline-block;
+  border-radius: 10px;
   border: none;
 }
 .project-hover .project-text-hover {
@@ -375,6 +388,7 @@ footer .my-email:hover {
   background-size: cover;
   background-position: top;
   position: relative;
+  border-radius: 10px;
 }
 .project-hover:hover .project-text-hover {
   display: flex;
@@ -391,7 +405,7 @@ footer .my-email:hover {
   justify-content: space-between;
 }
 .project-hover:hover .project-text-hover .list-of-libraries li {
-  margin: 5px;
+  margin: 1.6rem;
 }
 .project-hover:hover .project-text-hover button {
   color: black;

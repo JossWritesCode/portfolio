@@ -1,3 +1,4 @@
+/* 16px 32px 48px or 64px*/
 .btn {
   color: $color-white;
   font-weight: bold;
@@ -11,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .project-button-group {
@@ -21,6 +23,7 @@
 
 #myBtn:hover {
   border: none;
+  border-radius: 10px;
   background-color: $color-tertiary;
 }
 
@@ -35,7 +38,7 @@
   color: $color-white !important;
   background-color: $color-secondary;
   border: 2px solid $color-secondary;
-  padding: 1rem;
+  padding: 1.6rem;
   width: 8rem;
   font-weight: bold;
   height: 2rem;

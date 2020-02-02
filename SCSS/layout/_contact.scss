@@ -1,7 +1,9 @@
+/* 16px 32px 48px or 64px*/
+
 .section-contact {
   background-color: #252934;
   min-height: 50vh;
-  padding-top: 8rem;
+  padding-top: 6.4rem;
   color: white;
 
   @media (min-width: $breakpoint-desktop) {
@@ -21,7 +23,7 @@
   display: flex;
   justify-content: center;
   a {
-    margin: 4rem;
+    margin: 4.8rem;
   }
 }
 
@@ -37,7 +39,7 @@ form {
     background-color: #1e242c;
     border: none;
     height: 25px;
-    margin: 2rem;
+    margin: 3.2rem;
     color: #fff;
     padding: 5px;
 
@@ -51,7 +53,7 @@ form {
     background-color: #1e242c;
     border: none;
     height: 100px;
-    margin: 2rem;
+    margin: 3.2rem;
     color: #fff;
     padding: 5px;
 
@@ -60,7 +62,7 @@ form {
     }
   }
   button {
-    margin-bottom: 5rem;
+    margin-bottom: 4.8rem;
   }
 }
 
@@ -71,7 +73,7 @@ footer {
   justify-content: center;
   align-items: center;
   font-size: $default-font-size;
-  padding-top: 2rem;
+  padding-top: 3.2rem;
   text-decoration: none;
   .my-email {
     color: white;

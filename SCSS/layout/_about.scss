@@ -1,5 +1,6 @@
+/* 16px 32px 48px or 64px*/
 .section-about {
-  padding: 4rem 2rem 2rem 2rem;
+  padding: 4.8rem 3.2rem 3.2rem 3.2rem;
   // border: 5px solid $color-black;
 
   .heading-about {
@@ -13,12 +14,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 4.8rem;
     font-size: $default-font-size;
     text-align: center;
     .image-of-me {
       border-radius: 50%;
-      margin-bottom: 1rem;
+      margin-bottom: 1.6rem;
     }
     p {
       max-width: 50rem;
@@ -43,7 +44,7 @@
       width: 20rem;
 
       .heading-tertiary {
-        font-size: 3rem;
+        font-size: 3.2rem;
       }
     }
 
