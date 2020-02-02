@@ -275,7 +275,6 @@ footer .my-email:hover {
   background-size: cover;
   background-position: top;
   position: relative;
-  padding: 1.6rem;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -371,13 +370,20 @@ footer .my-email:hover {
 .project-hover {
   background-size: cover;
   background-position: top;
-  width: 450px;
   height: 188px;
   overflow: hidden;
   position: relative;
   display: inline-block;
   border-radius: 10px;
   border: none;
+  margin: 1.6rem;
+  padding: 1.6rem;
+  width: 300px;
+}
+@media (min-width: 400px) {
+  .project-hover {
+    width: 320px;
+  }
 }
 .project-hover .project-text-hover {
   display: none;
