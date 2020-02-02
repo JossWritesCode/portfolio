@@ -78,11 +78,11 @@ body {
 }
 
 #contact-button {
-  background-color: #007fff;
+  background-color: #ff8000;
 }
 
 #contact-button:hover {
-  background-color: #ff8000;
+  background-color: #007fff;
 }
 
 .project-btn {
