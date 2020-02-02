@@ -45,7 +45,6 @@
 .project-hover {
   background-size: cover;
   background-position: top;
-  width: 450px;
   height: 188px;
   overflow: hidden;
 
@@ -53,6 +52,13 @@
   display: inline-block;
   border-radius: 10px;
   border: none;
+  margin: 1.6rem;
+  padding: 1.6rem;
+  width: 300px;
+
+  @media (min-width: 400px) {
+    width: 320px;
+  }
 
   .project-text-hover {
     display: none;

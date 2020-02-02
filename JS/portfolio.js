@@ -120,9 +120,7 @@ function createPortfolio(
   const hoverText = document.createElement("div");
   hoverText.classList.add("project-hover");
   imageWrapper.appendChild(hoverText);
-  hoverText.style.width = "350px";
-  hoverText.style.margin = "1rem";
-  hoverText.style.padding = "1rem";
+
   hoverText.style.backgroundImage = `url(${imageURL})`;
 
   const projectTextHover = document.createElement("div");
