@@ -31,7 +31,7 @@ const portfolioData = [
   {
     title: "How's the Weather?",
     siteLink: "https://xenodochial-goldstine-c0481e.netlify.com/",
-    gitHubLink: "https://github.com/Joscelyn1/weather-app",
+    gitHubLink: "https://github.com/JossWritesCode/weather-app",
     imageURL: "./IMG/hows-the-weather.png",
     description: "Find out the weather in any major city!",
     librariesUsed: ["React", "Redux", "MetaWeather API"],
@@ -58,27 +58,27 @@ const portfolioData = [
   },
   {
     title: "Matching Card Game",
-    siteLink: "https://joscelyn1.github.io/Matching-Card-Game/",
+    siteLink: "https://josswritescode.github.io/Matching-Card-Game/",
     imageURL: "./IMG/card-matching-game.png",
     description: "This classic card matching game is great fun.",
-    gitHubLink: "https://github.com/Joscelyn1/Matching-Card-Game",
+    gitHubLink: "https://github.com/JossWritesCode/Matching-Card-Game",
     librariesUsed: ["vanilla JS"],
     date: "October 2018"
   },
   {
     title: "Frogger Clone",
-    siteLink: "https://joscelyn1.github.io/Frogger-Style-Game/",
+    siteLink: "https://josswritescode.github.io/Frogger-Style-Game/",
     imageURL: "./IMG/frogger-clone.png",
     description: "This game resembles the classic arcade game Frogger.",
-    gitHubLink: "https://github.com/Joscelyn1/Frogger-Style-Game",
+    gitHubLink: "https://github.com/JossWritesCode/Frogger-Style-Game",
     librariesUsed: ["vanilla JS"],
     date: "June 2018"
   },
   {
     title: "Pixel Art Maker",
-    siteLink: "https://joscelyn1.github.io/Pixel-Art-Maker/",
+    siteLink: "https://josswritescode.github.io/Pixel-Art-Maker/",
     imageURL: "./IMG/pixel-art-maker.png",
-    gitHubLink: "https://github.com/Joscelyn1/Pixel-Art-Maker",
+    gitHubLink: "https://github.com/JossWritesCode/Pixel-Art-Maker",
     librariesUsed: ["vanilla JS"],
     date: "June 2018",
     description: "Create pixel art with this application"
