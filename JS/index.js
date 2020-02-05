@@ -1,3 +1,5 @@
+// or enable responsive functionality:
+
 const processForm = form => {
   const data = new FormData(form);
   data.append("form-name", "contact");
