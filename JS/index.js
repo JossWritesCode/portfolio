@@ -1,3 +1,7 @@
+// or enable responsive functionality:
+new GitHubCalendar(".calendar", "josswritescode", {
+  responsive: true
+});
 const processForm = form => {
   const data = new FormData(form);
   data.append("form-name", "contact");

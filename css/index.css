@@ -161,6 +161,17 @@ body {
   text-align: left;
 }
 
+.calendar {
+  display: none;
+}
+@media (min-width: 800px) {
+  .calendar {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+  }
+}
+
 /* 16px 32px 48px or 64px*/
 .section-blog {
   background-color: white;
