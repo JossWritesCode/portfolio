@@ -56,3 +56,13 @@
     }
   }
 }
+
+.calendar {
+  display: none;
+
+  @media (min-width: $breakpoint-tablet) {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+  }
+}
