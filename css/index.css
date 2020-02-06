@@ -45,7 +45,7 @@ body {
   font-weight: 400;
   line-height: 1.7;
   text-decoration: none;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* 16px 32px 48px or 64px*/
@@ -72,9 +72,10 @@ body {
 }
 
 #myBtn:hover {
-  border: none;
+  border: 1px solid #ff8000;
+  color: #ff8000;
   border-radius: 10px;
-  background-color: #ffc080;
+  background-color: #fff;
 }
 
 #contact-button {
