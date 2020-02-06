@@ -83,7 +83,9 @@ body {
 }
 
 #contact-button:hover {
-  background-color: #ffc080;
+  background-color: #fff;
+  color: #ff8000;
+  border: 1px solid #ff8000;
 }
 
 .project-btn {
@@ -102,9 +104,9 @@ body {
 }
 
 .project-btn:hover {
-  background-color: #ffc080;
-  border: #ffc080;
-  color: #fff !important;
+  background-color: #fff;
+  border: 1px solid #ff8000;
+  color: #ff8000 !important;
 }
 
 /* 16px 32px 48px or 64px*/

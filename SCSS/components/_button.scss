@@ -33,7 +33,9 @@
 }
 
 #contact-button:hover {
-  background-color: $color-tertiary;
+  background-color: $color-white;
+  color: $color-secondary;
+  border: 1px solid $color-secondary;
 }
 .project-btn {
   color: $color-white !important;
@@ -51,7 +53,7 @@
 }
 
 .project-btn:hover {
-  background-color: $color-tertiary;
-  border: $color-tertiary;
-  color: $color-white !important;
+  background-color: $color-white;
+  border: 1px solid $color-secondary;
+  color: $color-secondary !important;
 }
