@@ -1,14 +1,14 @@
 const portfolioData = [
-  {
-    title: "Lambda Bug Tracker",
-    siteLink: "https://lambda-bug-tracker.firebaseapp.com/",
-    imageURL: "./IMG/lambda-bug-tracker.png",
-    description:
-      "This app allows you to make bug tickets and keep track of them.",
-    gitHubLink: "https://github.com/Lambda-Bug-Tracker/Front-End",
-    librariesUsed: ["React", "Redux", "Firebase"],
-    date: "January 2020"
-  },
+  // {
+  //   title: "Lambda Bug Tracker",
+  //   siteLink: "https://lambda-bug-tracker.firebaseapp.com/",
+  //   imageURL: "./IMG/lambda-bug-tracker.png",
+  //   description:
+  //     "This app allows you to make bug tickets and keep track of them.",
+  //   gitHubLink: "https://github.com/Lambda-Bug-Tracker/Front-End",
+  //   librariesUsed: ["React", "Redux", "Firebase"],
+  //   date: "January 2020"
+  // },
   {
     title: "Celebrity Dead or Alive Quiz",
     siteLink: "http://celebrity-dead-or-alive.herokuapp.com/",
