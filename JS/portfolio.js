@@ -20,7 +20,7 @@ const portfolioData = [
   },
   {
     title: "Read Refugee Stories",
-    siteLink: "https://readrefugeestories.netlify.com",
+    siteLink: "https://theirstories.netlify.com",
     imageURL: "./IMG/refugee-stories.png",
     description: "A platform for displaced people to share their stories.",
     gitHubLink: "https://github.com/build-refugee-stories/refugee-stories-fe",
