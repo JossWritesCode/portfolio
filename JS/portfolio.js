@@ -30,7 +30,7 @@ const portfolioData = [
 
   {
     title: "How's the Weather?",
-    siteLink: "https://xenodochial-goldstine-c0481e.netlify.com/",
+    siteLink: "https://how-is-the-weather.netlify.com/",
     gitHubLink: "https://github.com/JossWritesCode/weather-app",
     imageURL: "./IMG/hows-the-weather.png",
     description: "Find out the weather in any major city!",
