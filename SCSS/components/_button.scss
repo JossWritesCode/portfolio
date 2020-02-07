@@ -22,9 +22,10 @@
 }
 
 #myBtn:hover {
-  border: none;
+  border: 1px solid $color-secondary;
+  color: $color-secondary;
   border-radius: 10px;
-  background-color: $color-tertiary;
+  background-color: $color-white;
 }
 
 #contact-button {
@@ -32,7 +33,9 @@
 }
 
 #contact-button:hover {
-  background-color: $color-tertiary;
+  background-color: $color-white;
+  color: $color-secondary;
+  border: 1px solid $color-secondary;
 }
 .project-btn {
   color: $color-white !important;
@@ -41,7 +44,7 @@
   padding: 1.6rem;
   width: 8rem;
   font-weight: bold;
-  height: 2rem;
+  height: 1.75rem;
   text-align: center;
   font-size: 1.2rem;
   display: flex;
@@ -50,7 +53,9 @@
 }
 
 .project-btn:hover {
-  background-color: $color-tertiary;
-  border: $color-tertiary;
-  color: $color-white !important;
+  background-color: $color-white;
+  border: 1px solid $color-secondary;
+  color: $color-secondary !important;
+  width: 8.5rem;
+  height: 2.2rem;
 }
