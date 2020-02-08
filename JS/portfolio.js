@@ -9,24 +9,24 @@ const portfolioData = [
   //   librariesUsed: ["React", "Redux", "Firebase"],
   //   date: "January 2020"
   // },
-  {
-    title: "Celebrity Dead or Alive Quiz",
-    siteLink: "http://celebrity-dead-or-alive.herokuapp.com/",
-    imageURL: "./IMG/celebrity-dead-or-alive.png",
-    description: "How well do you know which celebrities are alive or dead?",
-    gitHubLink: "https://github.com/build-week-celebrity/back-end",
-    librariesUsed: ["React", "Redux"],
-    date: "January 2020"
-  },
-  {
-    title: "Read Refugee Stories",
-    siteLink: "https://theirstories.netlify.com",
-    imageURL: "./IMG/refugee-stories.png",
-    description: "A platform for displaced people to share their stories.",
-    gitHubLink: "https://github.com/build-refugee-stories/refugee-stories-fe",
-    librariesUsed: ["React"],
-    date: "August 2019"
-  },
+  // {
+  //   title: "Celebrity Dead or Alive Quiz",
+  //   siteLink: "http://celebrity-dead-or-alive.herokuapp.com/",
+  //   imageURL: "./IMG/celebrity-dead-or-alive.png",
+  //   description: "How well do you know which celebrities are alive or dead?",
+  //   gitHubLink: "https://github.com/build-week-celebrity/back-end",
+  //   librariesUsed: ["React", "Redux"],
+  //   date: "January 2020"
+  // },
+  // {
+  //   title: "Read Refugee Stories",
+  //   siteLink: "https://theirstories.netlify.com",
+  //   imageURL: "./IMG/refugee-stories.png",
+  //   description: "A platform for displaced people to share their stories.",
+  //   gitHubLink: "https://github.com/build-refugee-stories/refugee-stories-fe",
+  //   librariesUsed: ["React"],
+  //   date: "August 2019"
+  // },
 
   {
     title: "How's the Weather?",
@@ -44,18 +44,18 @@ const portfolioData = [
     gitHubLink: "https://github.com/buildweek-weight-lifting/joscelyn-owen",
     imageURL: "./IMG/hercules-weightlifting-app.png",
     description: "Track your weight-lifting with this stylish app.",
-    librariesUsed: ["React"],
+    librariesUsed: ["React", "Less"],
     date: "August 2019"
   },
-  {
-    title: "Random Encounter Generator",
-    siteLink: "https://5e-encounters.netlify.com/",
-    imageURL: "./IMG/random-encounter-generator.png",
-    description: "A toolkit to make dungeon masters' lives easier!",
-    gitHubLink: "https://github.com/DuckEverlasting/Random-Character-Generator",
-    librariesUsed: ["React", "Redux"],
-    date: "June 2019"
-  },
+  // {
+  //   title: "Random Encounter Generator",
+  //   siteLink: "https://5e-encounters.netlify.com/",
+  //   imageURL: "./IMG/random-encounter-generator.png",
+  //   description: "A toolkit to make dungeon masters' lives easier!",
+  //   gitHubLink: "https://github.com/DuckEverlasting/Random-Character-Generator",
+  //   librariesUsed: ["React", "Redux"],
+  //   date: "June 2019"
+  // },
   {
     title: "Matching Card Game",
     siteLink: "https://josswritescode.github.io/Matching-Card-Game/",
