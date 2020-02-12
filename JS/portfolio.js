@@ -1,5 +1,15 @@
 const portfolioData = [
   // {
+  //   title: "RiffTube",
+  //   siteLink: "https://rifftube.herokuapp.com",
+  //   imageURL: "./IMG/rifftube.png,
+  //   description:
+  //     "Add audio commentary to YouTube videos",
+  //   gitHubLink: "https://github.com/JossWritesCode/RiffTube,
+  //   librariesUsed: ["React", "Redux", "Node.js"],
+  //   date: "January 2020"
+  // },
+  // {
   //   title: "Lambda Bug Tracker",
   //   siteLink: "https://lambda-bug-tracker.firebaseapp.com/",
   //   imageURL: "./IMG/lambda-bug-tracker.png",
@@ -40,11 +50,12 @@ const portfolioData = [
 
   {
     title: "Hercules Weightlifting App",
-    siteLink: "https://buildweek-weight-lifting.github.io/joscelyn-owen/",
-    gitHubLink: "https://github.com/buildweek-weight-lifting/joscelyn-owen",
+    siteLink: "https://workoutwithhercules.netlify.com/",
+    gitHubLink: "",
     imageURL: "./IMG/hercules-weightlifting-app.png",
-    description: "Track your weight-lifting with this stylish app.",
-    librariesUsed: ["React", "Less"],
+    description:
+      "I built a slick landing page for this stylish weight-lifing app.",
+    librariesUsed: ["Less"],
     date: "August 2019"
   },
   // {
