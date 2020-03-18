@@ -316,9 +316,8 @@ footer .my-email:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 20rem;
   z-index: 5;
-  top: 0;
+  top: 33%;
   position: absolute;
   left: 0;
   right: 0;
@@ -402,6 +401,12 @@ footer .my-email:hover {
     width: 320px;
   }
 }
+@media (min-width: 700px) {
+  .project-hover {
+    width: 500px;
+    height: 340px;
+  }
+}
 .project-hover .project-text-hover {
   display: none;
 }
@@ -420,6 +425,12 @@ footer .my-email:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
+}
+@media (min-width: 700px) {
+  .project-hover:hover .project-text-hover {
+    font-size: 2rem;
+  }
 }
 .project-hover:hover .project-text-hover .list-of-libraries {
   display: flex;

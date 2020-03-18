@@ -59,6 +59,10 @@
   @media (min-width: 400px) {
     width: 320px;
   }
+  @media (min-width: 700px) {
+    width: 500px;
+    height: 340px;
+  }
 
   .project-text-hover {
     display: none;
@@ -84,6 +88,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100%;
+
+    @media (min-width: 700px) {
+      font-size: 2rem;
+    }
 
     .list-of-libraries {
       display: flex;
