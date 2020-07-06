@@ -1,5 +1,14 @@
 const portfolioData = [
   {
+    title: "RiffTube",
+    siteLink: "https://rifftube.herokuapp.com",
+    imageURL: "./IMG/rifftube.png",
+    description: "Add audio commentary to YouTube videos",
+    gitHubLink: "https://github.com/JossWritesCode/RiffTube",
+    librariesUsed: ["React", "Redux", "Node.js"],
+    date: "July 2020",
+  },
+  {
     title: "Kansha Rewards",
     siteLink: "https://kansharewards.com/",
     imageURL: "./IMG/kansha.png",
@@ -7,15 +16,6 @@ const portfolioData = [
     gitHubLink: "https://github.com/Lambda-School-Labs/kansha-fe",
     librariesUsed: ["React", "Redux", "Node.js", "Chart.js"],
     date: "March 2020",
-  },
-  {
-    title: "RiffTube",
-    siteLink: "https://rifftube.herokuapp.com",
-    imageURL: "./IMG/rifftube.png",
-    description: "Add audio commentary to YouTube videos",
-    gitHubLink: "https://github.com/JossWritesCode/RiffTube",
-    librariesUsed: ["React", "Redux", "Node.js"],
-    date: "January 2020",
   },
   // {
   //   title: "Lambda Bug Tracker",
