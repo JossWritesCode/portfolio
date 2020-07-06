@@ -6,7 +6,7 @@ const portfolioData = [
     description: "Send thanks and rewards to your hard-working peers",
     gitHubLink: "https://github.com/Lambda-School-Labs/kansha-fe",
     librariesUsed: ["React", "Redux", "Node.js", "Chart.js"],
-    date: "March 2020"
+    date: "March 2020",
   },
   {
     title: "RiffTube",
@@ -15,7 +15,7 @@ const portfolioData = [
     description: "Add audio commentary to YouTube videos",
     gitHubLink: "https://github.com/JossWritesCode/RiffTube",
     librariesUsed: ["React", "Redux", "Node.js"],
-    date: "January 2020"
+    date: "January 2020",
   },
   // {
   //   title: "Lambda Bug Tracker",
@@ -53,7 +53,7 @@ const portfolioData = [
     imageURL: "./IMG/hows-the-weather.png",
     description: "Find out the weather in any major city!",
     librariesUsed: ["React", "Redux", "MetaWeather API"],
-    date: "August 2019"
+    date: "August 2019",
   },
 
   {
@@ -64,17 +64,17 @@ const portfolioData = [
     description:
       "I built a slick landing page for this stylish weight-lifing app.",
     librariesUsed: ["Less"],
-    date: "August 2019"
+    date: "August 2019",
   },
-  // {
-  //   title: "Random Encounter Generator",
-  //   siteLink: "https://5e-encounters.netlify.com/",
-  //   imageURL: "./IMG/random-encounter-generator.png",
-  //   description: "A toolkit to make dungeon masters' lives easier!",
-  //   gitHubLink: "https://github.com/DuckEverlasting/Random-Character-Generator",
-  //   librariesUsed: ["React", "Redux"],
-  //   date: "June 2019"
-  // },
+  {
+    title: "Random Encounter Generator",
+    siteLink: "https://5e-encounters.netlify.com/",
+    imageURL: "./IMG/random-encounter-generator.png",
+    description: "A toolkit to make dungeon masters' lives easier!",
+    gitHubLink: "https://github.com/DuckEverlasting/Random-Character-Generator",
+    librariesUsed: ["React", "Redux"],
+    date: "June 2019",
+  },
   {
     title: "Matching Card Game",
     siteLink: "https://josswritescode.github.io/Matching-Card-Game/",
@@ -82,7 +82,7 @@ const portfolioData = [
     description: "This classic card matching game is great fun.",
     gitHubLink: "https://github.com/JossWritesCode/Matching-Card-Game",
     librariesUsed: ["vanilla JS"],
-    date: "October 2018"
+    date: "October 2018",
   },
   {
     title: "Frogger Clone",
@@ -91,7 +91,7 @@ const portfolioData = [
     description: "This game resembles the classic arcade game Frogger.",
     gitHubLink: "https://github.com/JossWritesCode/Frogger-Style-Game",
     librariesUsed: ["vanilla JS"],
-    date: "June 2018"
+    date: "June 2018",
   },
   {
     title: "Pixel Art Maker",
@@ -100,13 +100,13 @@ const portfolioData = [
     gitHubLink: "https://github.com/JossWritesCode/Pixel-Art-Maker",
     librariesUsed: ["vanilla JS"],
     date: "June 2018",
-    description: "Create pixel art with this application"
-  }
+    description: "Create pixel art with this application",
+  },
 ];
 
 const projects = document.querySelector(".all-projects-container");
 
-portfolioData.forEach(event => {
+portfolioData.forEach((event) => {
   projects.appendChild(
     createPortfolio(
       event.title,
