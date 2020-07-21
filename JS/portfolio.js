@@ -1,7 +1,7 @@
 const portfolioData = [
   {
     title: "RiffTube",
-    siteLink: "https://rifftube.herokuapp.com",
+    siteLink: "https://www.rifftube.net/",
     imageURL: "./IMG/rifftube.png",
     description: "Add audio commentary to YouTube videos",
     gitHubLink: "https://github.com/JossWritesCode/RiffTube",
