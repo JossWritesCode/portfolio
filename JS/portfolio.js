@@ -36,15 +36,15 @@ const portfolioData = [
   //   librariesUsed: ["React", "Redux"],
   //   date: "January 2020"
   // },
-  // {
-  //   title: "Read Refugee Stories",
-  //   siteLink: "https://theirstories.netlify.com",
-  //   imageURL: "./IMG/refugee-stories.png",
-  //   description: "A platform for displaced people to share their stories.",
-  //   gitHubLink: "https://github.com/build-refugee-stories/refugee-stories-fe",
-  //   librariesUsed: ["React"],
-  //   date: "August 2019"
-  // },
+  {
+    title: "Read Refugee Stories",
+    siteLink: "https://refugee-stories.netlify.app/",
+    imageURL: "./IMG/refugee-stories.png",
+    description: "A platform for displaced people to share their stories.",
+    gitHubLink: "https://github.com/JossWritesCode/refugee-stories",
+    librariesUsed: ["React", "Redux"],
+    date: "September 2019",
+  },
 
   {
     title: "How's the Weather?",
@@ -81,7 +81,7 @@ const portfolioData = [
     imageURL: "./IMG/card-matching-game.png",
     description: "This classic card matching game is great fun.",
     gitHubLink: "https://github.com/JossWritesCode/Matching-Card-Game",
-    librariesUsed: ["vanilla JS"],
+    librariesUsed: ["vanilla JS", "jQuery"],
     date: "October 2018",
   },
   {
@@ -90,7 +90,7 @@ const portfolioData = [
     imageURL: "./IMG/frogger-clone.png",
     description: "This game resembles the classic arcade game Frogger.",
     gitHubLink: "https://github.com/JossWritesCode/Frogger-Style-Game",
-    librariesUsed: ["vanilla JS"],
+    librariesUsed: ["vanilla JS", "jQuery"],
     date: "June 2018",
   },
   {
@@ -98,7 +98,7 @@ const portfolioData = [
     siteLink: "https://josswritescode.github.io/Pixel-Art-Maker/",
     imageURL: "./IMG/pixel-art-maker.png",
     gitHubLink: "https://github.com/JossWritesCode/Pixel-Art-Maker",
-    librariesUsed: ["vanilla JS"],
+    librariesUsed: ["vanilla JS", "jQuery"],
     date: "June 2018",
     description: "Create pixel art with this application",
   },
