@@ -21,6 +21,10 @@
   width: 100%;
 }
 
+#myBtn {
+  margin-top: 2rem;
+}
+
 #myBtn:hover {
   border: 1px solid $color-secondary;
   color: $color-secondary;
