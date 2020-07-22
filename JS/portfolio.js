@@ -141,6 +141,7 @@ function createPortfolio(
   imageWrapper.appendChild(hoverText);
 
   hoverText.style.backgroundImage = `url(${imageURL})`;
+  hoverText.style.transition = "background-image 0.2s ease-in-out";
 
   const projectTextHover = document.createElement("div");
   projectTextHover.classList.add("project-text-hover");
