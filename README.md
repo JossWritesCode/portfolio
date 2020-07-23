@@ -1,5 +1,3 @@
-sass --watch SCSS/main.scss css/index.css
-
 # Portfolio
 
 This is where all the cool stuff I made goes.
@@ -10,4 +8,4 @@ This is where all the cool stuff I made goes.
 
 ## Authors
 
-- **Joscelyn Stancek** - [Joscelyn1](https://github.com/Joscelyn1)
+- **Joscelyn Stancek** - [JossWritesCode](https://github.com/JossWritesCode)
