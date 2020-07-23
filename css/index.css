@@ -48,6 +48,10 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+textarea {
+  font-family: "Open Sans", sans-serif;
+}
+
 /* 16px 32px 48px or 64px*/
 .btn {
   color: #fff;
