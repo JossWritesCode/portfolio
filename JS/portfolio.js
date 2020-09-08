@@ -6,7 +6,7 @@ const portfolioData = [
     description: "Add audio commentary to YouTube videos",
     gitHubLink: "https://github.com/JossWritesCode/RiffTube",
     librariesUsed: ["React", "Redux", "Node.js"],
-    date: "July 2020",
+    date: "September 2020",
   },
   {
     title: "Kansha Rewards",
