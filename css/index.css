@@ -188,8 +188,8 @@ textarea {
 /* 16px 32px 48px or 64px*/
 .section-blog {
   background-color: white;
-  border: 5px solid #000;
-  min-height: 100vh;
+  border: 5px solid red;
+  min-height: 80vh;
 }
 .section-blog .heading-blog {
   font-size: 5rem;
