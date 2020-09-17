@@ -32,30 +32,42 @@ fetch('https://dev.to/api/articles?username=joscelyn1')
       //     </div>
       //   </div>
 
-      const blogContainer = document.createElement('a');
-      blogContainer.href = url;
+      const blogContainer = document.createElement('div');
       blogContainer.classList.add('blog-container');
+
       const blog = document.createElement('div');
       blog.classList.add('blog');
       blogContainer.appendChild(blog);
 
+      const blogImageWrapper = document.createElement('a');
+      blogImageWrapper.href = url;
+      blog.appendChild(blogImageWrapper);
+
       const blogImage = document.createElement('img');
       blogImage.src = socialImage;
-      blog.appendChild(blogImage);
+      blogImageWrapper.appendChild(blogImage);
+
+      const blogTitleWrapper = document.createElement('a');
+      blogTitleWrapper.href = url;
+      blog.appendChild(blogTitleWrapper);
 
       const blogTitle = document.createElement('h3');
       blogTitle.textContent = title;
-      blog.appendChild(blogTitle);
+      blogTitleWrapper.appendChild(blogTitle);
 
       const blogDescription = document.createElement('p');
       blogDescription.textContent = description;
       blog.appendChild(blogDescription);
 
+      const devImageWrapper = document.createElement('a');
+      devImageWrapper.href = 'https://dev.to/joscelyn1';
+      blog.appendChild(devImageWrapper);
+
       const devImage = document.createElement('img');
       devImage.src = './IMG/devlogo.png';
       devImage.alt = 'dev.to';
       devImage.classList.add('dev-image');
-      blog.appendChild(devImage);
+      devImageWrapper.appendChild(devImage);
 
       const blogTags = document.createElement('ul');
       blogTags.classList.add('blog-tags');

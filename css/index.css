@@ -254,6 +254,9 @@ textarea {
 .section-blog .all-blogs-container .blog-container .blog h3 {
   font-size: 2.2rem;
 }
+.section-blog .all-blogs-container .blog-container .blog h3:hover {
+  color: #ff8000;
+}
 .section-blog .all-blogs-container .blog-container .blog p {
   font-size: 1.6rem;
   text-align: left;
