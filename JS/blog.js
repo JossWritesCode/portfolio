@@ -1,6 +1,15 @@
 //https://dev.to/api/articles?username=joscelyn1
 
-fetch('https://dev.to/api/articles?username=joscelyn1')
+var myHeaders = new Headers();
+myHeaders.append('pragma', 'no-cache');
+myHeaders.append('cache-control', 'no-cache');
+
+var myInit = {
+  method: 'GET',
+  headers: myHeaders,
+};
+
+fetch('https://dev.to/api/articles?username=joscelyn1', myInit)
   .then(function (response) {
     // The API call was successful!
     if (response.ok) {
@@ -12,7 +21,10 @@ fetch('https://dev.to/api/articles?username=joscelyn1')
   .then(function (data) {
     console.log(data, 'data');
     const blogs = document.querySelector('.all-blogs-container');
-
+    var myInit = {
+      method: 'GET',
+      headers: myHeaders,
+    };
     data.forEach((event) => {
       blogs.appendChild(
         createBlogs(
