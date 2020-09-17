@@ -58,7 +58,6 @@ fetch("https://dev.to/api/articles?username=joscelyn1")
       devImage.src = "./IMG/devlogo.png";
       devImage.alt = "dev.to";
       devImage.classList.add("dev-image");
-      devImage.style.width = "50px";
       blog.appendChild(devImage);
 
       const blogTags = document.createElement("ul");

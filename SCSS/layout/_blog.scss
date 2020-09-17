@@ -35,8 +35,12 @@
       .blog {
         .dev-image {
           position: absolute;
-          bottom: 6rem;
+          bottom: 7.5rem;
           left: 1rem;
+          width: 30px;
+          @media (min-width: 700px) {
+            width: 50px;
+          }
         }
         .blog-tags {
           width: 90%;
