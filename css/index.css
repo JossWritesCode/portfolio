@@ -506,6 +506,11 @@ footer .my-email:hover {
     font-size: 2rem;
   }
 }
+@media (min-width: 1000px) {
+  .project-hover:hover .project-text-hover {
+    font-size: 2.4rem;
+  }
+}
 .project-hover:hover .project-text-hover .list-of-libraries {
   display: flex;
   text-decoration: none;

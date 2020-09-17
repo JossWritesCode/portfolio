@@ -10,9 +10,6 @@ fetch("https://dev.to/api/articles?username=joscelyn1")
     }
   })
   .then(function (data) {
-    // This is the JSON from our response
-    console.log(data);
-
     const blogs = document.querySelector(".all-blogs-container");
 
     data.forEach((event) => {
