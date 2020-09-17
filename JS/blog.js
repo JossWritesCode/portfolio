@@ -1,15 +1,6 @@
 //https://dev.to/api/articles?username=joscelyn1
 
-var myHeaders = new Headers();
-myHeaders.append('pragma', 'no-cache');
-myHeaders.append('cache-control', 'no-cache');
-
-var myInit = {
-  method: 'GET',
-  headers: myHeaders,
-};
-
-fetch('https://dev.to/api/articles?username=joscelyn1')
+fetch('https://dev.to/api/articles?username=joscelyn1', { cache: 'no-cache' })
   .then(function (response) {
     // The API call was successful!
     if (response.ok) {
