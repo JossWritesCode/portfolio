@@ -19,101 +19,59 @@ fetch("https://dev.to/api/articles?username=joscelyn1")
       blogs.appendChild(
         createBlogs(
           event.title,
-          event.tags,
+          event["tag_list"],
           event["social_image"],
           event.description,
-          event["canonical_url"],
-          event.user
+          event.url
         )
       );
     });
 
-    function createBlogs(
-      title,
-      tags,
-      socialImage,
-      description,
-      canonicalURL,
-      user
-    ) {
+    function createBlogs(title, tags, socialImage, description, url) {
+      //     <div class="blog-container">
+      //     <div class="blog">
+      //       <h3 class="heading-tertiary">Post Name</h3>
+      //       <img src="https://via.placeholder.com/400x240" />
+      //     </div>
+      //   </div>
+
+      const blogContainer = document.createElement("a");
+      blogContainer.href = url;
+      blogContainer.classList.add("blog-container");
       const blog = document.createElement("div");
-      project.classList.add("blog");
+      blog.classList.add("blog");
+      blogContainer.appendChild(blog);
 
-      //   const imageWrapper = document.createElement("div");
-      //   imageWrapper.classList.add("img-wrapper");
-      //   project.appendChild(imageWrapper);
+      const blogImage = document.createElement("img");
+      blogImage.src = socialImage;
+      blog.appendChild(blogImage);
 
-      //   const hoverText = document.createElement("div");
-      //   hoverText.classList.add("project-hover");
-      //   imageWrapper.appendChild(hoverText);
+      const blogTitle = document.createElement("h3");
+      blogTitle.textContent = title;
+      blog.appendChild(blogTitle);
 
-      //   hoverText.style.backgroundImage = `url(${imageURL})`;
+      const blogDescription = document.createElement("p");
+      blogDescription.textContent = description;
+      blog.appendChild(blogDescription);
 
-      //   const projectTextHover = document.createElement("div");
-      //   projectTextHover.classList.add("project-text-hover");
-      //   hoverText.appendChild(projectTextHover);
+      const devImage = document.createElement("img");
+      devImage.src = "./IMG/devlogo.png";
+      devImage.alt = "dev.to";
+      devImage.classList.add("dev-image");
+      devImage.style.width = "50px";
+      blog.appendChild(devImage);
 
-      const projectTitle = document.createElement("h3");
-      projectTitle.textContent = title;
+      const blogTags = document.createElement("ul");
+      blogTags.classList.add("blog-tags");
+      for (let tag of tags) {
+        const blogTag = document.createElement("li");
+        blogTag.classList.add("blog-tag");
+        blogTag.textContent = `#${tag}`;
+        blogTags.appendChild(blogTag);
+      }
+      blog.appendChild(blogTags);
 
-      projectTextHover.appendChild(projectTitle);
-
-      const projectDate = document.createElement("h5");
-      projectDate.textContent = date;
-      projectTextHover.appendChild(projectDate);
-
-      const projectDescription = document.createElement("p");
-      projectDescription.textContent = description;
-      projectTextHover.appendChild(projectDescription);
-
-      //   const listOfLibraries = document.createElement("ul");
-      //   listOfLibraries.classList.add("list-of-libraries");
-      //   listOfLibraries.textContent = "Built with:";
-      //   listOfLibraries.style.display = "flex";
-      //   listOfLibraries.style.flexDirection = "row";
-      //   listOfLibraries.style.alignItems = "center";
-
-      //   for (let i = 0; i < librariesUsed.length; i++) {
-      //     let liElement = document.createElement("li");
-
-      //     if (librariesUsed.length > 1) {
-      //       if (i === librariesUsed.length - 1) {
-      //         liElement.textContent = librariesUsed[i];
-      //       } else {
-      //         liElement.textContent = librariesUsed[i] + ",";
-      //       }
-      //     } else {
-      //       liElement.textContent = librariesUsed[i];
-      //     }
-
-      //     listOfLibraries.appendChild(liElement);
-      //   }
-
-      //   projectTextHover.appendChild(listOfLibraries);
-
-      //   const buttonGroup = document.createElement("div");
-      //   buttonGroup.classList.add("project-button-group");
-      // //   projectTextHover.appendChild(buttonGroup);
-
-      //   const siteATag = document.createElement("a");
-      //   siteATag.href = siteLink;
-      //   buttonGroup.appendChild(siteATag);
-
-      //   const goToSiteButton = document.createElement("button");
-      //   goToSiteButton.classList.add("project-btn");
-      //   goToSiteButton.textContent = "Live Site";
-      //   siteATag.appendChild(goToSiteButton);
-
-      //   const gitHubATag = document.createElement("a");
-      //   gitHubATag.href = gitHubLink;
-      //   buttonGroup.appendChild(gitHubATag);
-
-      //   const gitHubButton = document.createElement("button");
-      //   gitHubButton.classList.add("project-btn");
-      //   gitHubButton.textContent = "Source Code";
-      //   gitHubATag.appendChild(gitHubButton);
-
-      return blog;
+      return blogContainer;
     }
   })
   .catch(function (err) {
