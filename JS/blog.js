@@ -1,6 +1,6 @@
 //https://dev.to/api/articles?username=joscelyn1
 
-fetch('https://dev.to/api/articles?username=joscelyn1', { cache: 'no-cache' })
+fetch('https://dev.to/api/articles?username=joscelyn1', { cache: 'reload' })
   .then(function (response) {
     // The API call was successful!
     if (response.ok) {
