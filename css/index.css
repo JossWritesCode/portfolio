@@ -371,13 +371,33 @@ footer .my-email:hover {
 }
 .top nav {
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   position: absolute;
   top: 1.6rem;
   left: 1.6rem;
 }
+@media (min-width: 400px) {
+  .top nav {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 700px) {
+  .top nav {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 1000px) {
+  .top nav {
+    font-size: 1.8rem;
+  }
+}
 .top nav a {
-  margin-right: 3.2rem;
+  margin-right: 1.5rem;
+}
+@media (min-width: 400px) {
+  .top nav a {
+    margin-right: 3.2rem;
+  }
 }
 .top nav a:hover {
   color: #ff8000;

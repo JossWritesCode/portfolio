@@ -20,12 +20,28 @@
 
   nav {
     color: $color-white;
-    font-size: $default-font-size;
+    font-size: 1.4rem;
     position: absolute;
     top: 1.6rem;
     left: 1.6rem;
+
+    @media (min-width: 400px) {
+      font-size: $default-font-size;
+    }
+
+    @media (min-width: 700px) {
+      font-size: 1.6rem;
+    }
+
+    @media (min-width: 1000px) {
+      font-size: 1.8rem;
+    }
     a {
-      margin-right: 3.2rem;
+      margin-right: 1.5rem;
+
+      @media (min-width: 400px) {
+        margin-right: 3.2rem;
+      }
     }
 
     a:hover {
