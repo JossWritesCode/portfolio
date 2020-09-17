@@ -10,6 +10,7 @@ fetch('https://dev.to/api/articles?username=joscelyn1')
     }
   })
   .then(function (data) {
+    console.log(data, 'data');
     const blogs = document.querySelector('.all-blogs-container');
 
     data.forEach((event) => {
