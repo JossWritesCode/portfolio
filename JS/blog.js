@@ -63,7 +63,7 @@ fetch('https://dev.to/api/articles?username=josswritescode', {
       blog.appendChild(blogDescription);
 
       const devImageWrapper = document.createElement('a');
-      devImageWrapper.href = 'https://dev.to/joscelyn1';
+      devImageWrapper.href = 'https://dev.to/josswritescode';
       blog.appendChild(devImageWrapper);
 
       const devImage = document.createElement('img');
