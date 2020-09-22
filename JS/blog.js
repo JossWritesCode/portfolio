@@ -1,6 +1,8 @@
-//https://dev.to/api/articles?username=joscelyn1
+//https://dev.to/api/articles?username=josswritescode
 
-fetch('https://dev.to/api/articles?username=joscelyn1', { cache: 'reload' })
+fetch('https://dev.to/api/articles?username=josswritescode', {
+  cache: 'reload',
+})
   .then(function (response) {
     // The API call was successful!
     if (response.ok) {
