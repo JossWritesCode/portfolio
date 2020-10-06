@@ -12,7 +12,7 @@ fetch('https://dev.to/api/articles?username=josswritescode', {
     }
   })
   .then(function (data) {
-    console.log(data, 'data');
+    data = data.slice(0, 6);
     const blogs = document.querySelector('.all-blogs-container');
 
     data.forEach((event) => {
@@ -22,12 +22,13 @@ fetch('https://dev.to/api/articles?username=josswritescode', {
           event['tag_list'],
           event['social_image'],
           event.description,
-          event.url
+          event.url,
+          event['published_at']
         )
       );
     });
 
-    function createBlogs(title, tags, socialImage, description, url) {
+    function createBlogs(title, tags, socialImage, description, url, date) {
       //     <div class="blog-container">
       //     <div class="blog">
       //       <h3 class="heading-tertiary">Post Name</h3>
@@ -57,6 +58,11 @@ fetch('https://dev.to/api/articles?username=josswritescode', {
       const blogTitle = document.createElement('h3');
       blogTitle.textContent = title;
       blogTitleWrapper.appendChild(blogTitle);
+
+      const publishedAt = document.createElement('h4');
+      publishedAt.classList.add('published-at');
+      publishedAt.textContent = moment(date).format('MMM Do, YYYY');
+      blog.appendChild(publishedAt);
 
       const blogDescription = document.createElement('p');
       blogDescription.textContent = description;
