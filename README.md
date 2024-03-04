@@ -8,4 +8,4 @@ This is where all the cool stuff I made goes.
 
 ## Authors
 
-- **Joscelyn Stancek** - [JossWritesCode](https://github.com/JossWritesCode)
+- **Joss Stancek** - [JossWritesCode](https://github.com/JossWritesCode)
